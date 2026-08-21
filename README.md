@@ -3,7 +3,7 @@ title: Talk2TextVN
 emoji: 🎙️
 colorFrom: purple
 colorTo: blue
-sdk: streamlit
+sdk: docker
 app_file: app.py
 pinned: false
 license: mit
