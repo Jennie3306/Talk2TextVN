@@ -1,6 +1,15 @@
 # config.py
 
-# Model Whisper: "tiny" (nhanh nhất), "base", "small", "medium", "large"
+# ASR backend:
+#   "phowhisper" - VinAI's Whisper fine-tuned on 844h of Vietnamese (Hugging Face transformers)
+#   "whisper"    - original multilingual OpenAI Whisper (openai-whisper package)
+# Chọn dựa trên benchmark_vivos.py - xem results/benchmark_vivos.md
+ASR_BACKEND = "phowhisper"
+
+# PhoWhisper: "vinai/PhoWhisper-tiny" | "-base" | "-small" | "-medium" | "-large"
+PHOWHISPER_MODEL = "vinai/PhoWhisper-small"
+
+# Model Whisper gốc: "tiny" (nhanh nhất), "base", "small", "medium", "large"
 WHISPER_MODEL = "base"
 
 # Ngôn ngữ

@@ -7,16 +7,16 @@ sdk: docker
 app_file: app.py
 pinned: false
 license: mit
-short_description: Offline Vietnamese speech-to-text with Whisper + Gemma 3n
+short_description: Offline Vietnamese speech-to-text with PhoWhisper + Gemma 3n
 ---
 
 
 # 🎙️ Talk2TextVN
 
-> An offline Vietnamese speech recognition pipeline combining Whisper-based transcription with Gemma 3n post-processing for punctuation restoration, text normalization, and improved readability.
+> An offline Vietnamese speech recognition pipeline combining PhoWhisper (Whisper fine-tuned for Vietnamese) transcription with Gemma 3n post-processing for punctuation restoration, text normalization, and improved readability.
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://python.org)
-[![Whisper](https://img.shields.io/badge/Whisper-Base-purple)](https://github.com/openai/whisper)
+[![PhoWhisper](https://img.shields.io/badge/PhoWhisper-Small-purple)](https://github.com/VinAIResearch/PhoWhisper)
 [![Gemma](https://img.shields.io/badge/Gemma-3n-orange)](https://ai.google.dev)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Hugging Face](https://img.shields.io/badge/Demo-HuggingFace-yellow)](https://huggingface.co/spaces/LeeUyen06/Talk2TextVN)
@@ -40,13 +40,13 @@ Talk2TextVN is an **on-device Vietnamese speech recognition system** designed fo
 
 ## 🏗️ System Architecture
 ```
-Audio Capture → Preprocessing → Whisper STT → Text Normalization → Evaluation → UI
+Audio Capture → Preprocessing → PhoWhisper STT → Text Normalization → Evaluation → UI
 ```
 
 **Pipeline stages:**
 1. **Audio Capture** — Record from microphone or load file (.wav, .mp3, .m4a)
 2. **Preprocessing** — Resample to 16kHz, convert to mono, trim silence, normalize to float32
-3. **Whisper STT** — Transcribe Vietnamese speech using Whisper Base with Vietnamese prompt engineering (on-device)
+3. **Speech-to-text** — PhoWhisper-small by default (configurable in `config.py`); the original multilingual Whisper is kept as a baseline backend
 4. **Text Normalization** — Three methods: rule-based, Gemma API, Gemma on-device (Ollama)
 5. **Evaluation** — WER/CER measurement, latency logging, error analysis
 6. **Demo UI** — Streamlit interface with real-time transcription
@@ -95,6 +95,23 @@ Gemma 3n correctly:
 ---
 
 ## 📊 Benchmark Results
+
+### ASR model comparison on the public VIVOS test set
+
+The first version used the original multilingual Whisper, which reached a WER of 0.65 on clean self-recorded speech (table further below). To fix the root cause rather than post-process around it, the app now uses **PhoWhisper**, VinAI's Whisper models fine-tuned on 844 hours of Vietnamese speech, and every candidate is benchmarked on the **VIVOS test set** (760 utterances, 19 speakers) with identical preprocessing and text normalisation.
+
+| Model | WER | CER | sec / utterance | Real-time factor |
+|---|---|---|---|---|
+| whisper:base (old baseline) | [ ] | [ ] | [ ] | [ ] |
+| PhoWhisper-tiny | [ ] | [ ] | [ ] | [ ] |
+| PhoWhisper-base | [ ] | [ ] | [ ] | [ ] |
+| PhoWhisper-small | [ ] | [ ] | [ ] | [ ] |
+
+Reproduce: `python benchmark_vivos.py` (GPU recommended; downloads VIVOS from Zenodo and keeps only the test split). Per-utterance predictions are saved in `results/` for error analysis.
+
+> Caveat: PhoWhisper's training data includes the VIVOS *train* split, so VIVOS *test* is in-domain for it. The self-recorded clean/noisy samples below serve as an out-of-domain check (`python benchmark_vivos.py --own`).
+
+### First version: original Whisper on 20 self-recorded samples
 
 Evaluated on 20 real-world Vietnamese audio samples (10 clean, 10 noisy).
 
@@ -207,7 +224,8 @@ Open [http://localhost:8501](http://localhost:8501)
 talk2textvn/
 ├── audio_io.py          # Audio recording and loading
 ├── preprocess.py        # Audio preprocessing pipeline
-├── transcribe.py        # Whisper inference + latency logging
+├── transcribe.py        # PhoWhisper / Whisper inference + latency logging
+├── benchmark_vivos.py   # WER/CER benchmark on the public VIVOS test set
 ├── postprocess.py       # Text normalization (rule-based + Gemma)
 ├── evaluate.py          # WER/CER evaluation + error analysis
 ├── app.py               # Streamlit demo UI

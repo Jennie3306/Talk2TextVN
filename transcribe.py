@@ -1,85 +1,118 @@
 # transcribe.py
-# Chức năng: dùng Whisper để chuyển audio thành text, log latency
+# Chức năng: chuyển audio thành text (PhoWhisper hoặc Whisper gốc), log latency
 
-import whisper
-import time
 import json
 import os
+import time
 from datetime import datetime
-from config import WHISPER_MODEL, LANGUAGE, RESULTS_DIR
 
-# Load model một lần duy nhất để tránh load lại mỗi lần gọi
-_model = None
+import numpy as np
 
-def get_model(model_name: str = WHISPER_MODEL):
-    """
-    Load Whisper model, cache lại để dùng nhiều lần.
-    Lần đầu chạy sẽ tự download model (~75MB với tiny).
-    """
-    global _model
-    if _model is None:
-        print(f"Đang load Whisper model '{model_name}'...")
-        print("(Lần đầu chạy sẽ tự download model, chờ chút...)")
-        _model = whisper.load_model(model_name)
-        print(f"Load model xong!")
-    return _model
+from config import (
+    ASR_BACKEND,
+    LANGUAGE,
+    PHOWHISPER_MODEL,
+    RESULTS_DIR,
+    SAMPLE_RATE,
+    WHISPER_MODEL,
+)
+
+# Cache model theo (backend, tên model) để không load lại mỗi lần gọi
+_models = {}
+
+# Prompt giúp Whisper gốc hiểu context tiếng Việt (PhoWhisper không cần)
+_WHISPER_PROMPT = (
+    "Đây là đoạn hội thoại tiếng Việt thông thường. "
+    "Người nói có thể đề cập đến công nghệ, lập trình, "
+    "trí tuệ nhân tạo, học máy, và các chủ đề hàng ngày."
+)
 
 
-def transcribe(audio_input, model_name: str = WHISPER_MODEL) -> dict:
+def _default_model(backend: str) -> str:
+    return PHOWHISPER_MODEL if backend == "phowhisper" else WHISPER_MODEL
+
+
+def get_model(backend: str = ASR_BACKEND, model_name: str | None = None):
+    """Load model một lần rồi cache lại."""
+    model_name = model_name or _default_model(backend)
+    key = (backend, model_name)
+    if key in _models:
+        return _models[key]
+
+    print(f"Đang load {backend} model '{model_name}' (lần đầu sẽ tự download)...")
+    if backend == "phowhisper":
+        import torch
+        from transformers import pipeline
+
+        _models[key] = pipeline(
+            "automatic-speech-recognition",
+            model=model_name,
+            device=0 if torch.cuda.is_available() else -1,
+            chunk_length_s=30,  # audio dài hơn 30s được cắt thành nhiều đoạn
+        )
+    elif backend == "whisper":
+        import whisper
+
+        _models[key] = whisper.load_model(model_name)
+    else:
+        raise ValueError(f"ASR_BACKEND không hợp lệ: {backend}")
+    print("Load model xong!")
+    return _models[key]
+
+
+def _load_audio(audio_input) -> np.ndarray:
+    """Nhận đường dẫn file hoặc numpy float32 16 kHz, trả về numpy float32."""
+    if isinstance(audio_input, np.ndarray):
+        return audio_input.astype(np.float32)
+    from preprocess import preprocess
+
+    return preprocess(audio_input)
+
+
+def transcribe(audio_input, model_name: str | None = None, backend: str = ASR_BACKEND) -> dict:
     """
-    Chuyển audio thành text bằng Whisper.
-    - audio_input: đường dẫn file .wav (str) hoặc numpy array float32
-    - return: dict chứa text, latency, model, timestamp
+    Chuyển audio thành text.
+    - audio_input: đường dẫn file .wav (str) hoặc numpy array float32 16 kHz
+    - return: dict chứa raw_text, latency_s, model, backend, timestamp
     """
-    model = get_model(model_name)
+    model_name = model_name or _default_model(backend)
+    model = get_model(backend, model_name)
 
     print("Đang nhận dạng giọng nói...")
     start_time = time.time()
 
-    # Prompt giúp Whisper hiểu context tiếng Việt tốt hơn
-    initial_prompt = (
-        "Đây là đoạn hội thoại tiếng Việt thông thường. "
-        "Người nói có thể đề cập đến công nghệ, lập trình, "
-        "trí tuệ nhân tạo, học máy, và các chủ đề hàng ngày."
-    )
-
-    result = model.transcribe(
-        audio_input,
-        language=LANGUAGE,
-        verbose=False,              # Tắt log chi tiết của Whisper
-        initial_prompt=initial_prompt
-    )
+    if backend == "phowhisper":
+        audio = _load_audio(audio_input)
+        result = model({"raw": audio, "sampling_rate": SAMPLE_RATE})
+        raw_text = result["text"].strip()
+    else:
+        result = model.transcribe(
+            audio_input,
+            language=LANGUAGE,
+            verbose=False,
+            initial_prompt=_WHISPER_PROMPT,
+        )
+        raw_text = result["text"].strip()
 
     latency = round(time.time() - start_time, 3)
-    raw_text = result["text"].strip()
-
     output = {
         "raw_text": raw_text,
         "latency_s": latency,
         "model": model_name,
+        "backend": backend,
         "language": LANGUAGE,
-        "timestamp": datetime.now().strftime("%Y%m%d_%H%M%S")
+        "timestamp": datetime.now().strftime("%Y%m%d_%H%M%S"),
     }
-
-    print(f"Nhận dạng xong! ({latency}s)")
-    print(f"Raw text: {raw_text}")
+    print(f"Nhận dạng xong! ({latency}s): {raw_text}")
     return output
 
 
-def transcribe_and_save(audio_input, model_name: str = WHISPER_MODEL) -> dict:
-    """
-    Transcribe và lưu kết quả ra file JSON trong results/.
-    """
-    result = transcribe(audio_input, model_name)
-
-    # Lưu kết quả
+def transcribe_and_save(audio_input, model_name: str | None = None, backend: str = ASR_BACKEND) -> dict:
+    """Transcribe và lưu kết quả ra file JSON trong results/."""
+    result = transcribe(audio_input, model_name, backend)
     os.makedirs(RESULTS_DIR, exist_ok=True)
-    save_path = os.path.join(
-        RESULTS_DIR,
-        f"transcription_{result['timestamp']}.json"
-    )
+    save_path = os.path.join(RESULTS_DIR, f"transcription_{result['timestamp']}.json")
     with open(save_path, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
-
     print(f"Đã lưu kết quả: {save_path}")
     return result
