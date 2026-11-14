@@ -150,8 +150,30 @@ def run_model(spec: str, items: list[dict]) -> tuple[dict, list[dict]]:
     return summary, rows
 
 
+def merge_previous(summaries: list[dict], label: str) -> list[dict]:
+    """Keep rows from earlier runs (other models, or other --limit) so models can be run one at a time."""
+    path = RESULTS / f"benchmark_{label}.csv"
+    if not path.exists():
+        return summaries
+    with open(path, newline="", encoding="utf-8") as f:
+        old = list(csv.DictReader(f))
+    new_keys = {(s["model"], str(s["n"]), s.get("device", "")) for s in summaries}
+    kept = []
+    for r in old:
+        if (r["model"], r["n"], r.get("device", "")) in new_keys:
+            continue
+        for k in ("wer", "cer", "sec_per_utt", "rtf"):
+            r[k] = float(r[k])
+        r["n"] = int(r["n"])
+        kept.append(r)
+    return kept + summaries
+
+
 def write_outputs(summaries: list[dict], preds: dict[str, list[dict]], label: str, device: str) -> None:
     RESULTS.mkdir(exist_ok=True)
+    for s in summaries:
+        s["device"] = device
+    summaries = merge_previous(summaries, label)
     with open(RESULTS / f"benchmark_{label}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=summaries[0].keys())
         w.writeheader()
@@ -163,18 +185,20 @@ def write_outputs(summaries: list[dict], preds: dict[str, list[dict]], label: st
             w.writeheader()
             w.writerows(rows)
 
-    best = min(summaries, key=lambda s: s["wer"])
+    full = [x for x in summaries if int(x["n"]) == max(int(y["n"]) for y in summaries)]
+    best = min(full, key=lambda s: s["wer"])
     lines = [
         f"# ASR benchmark: {label}",
         "",
-        f"{summaries[0]['n']} utterances · device: {device} · same preprocessing and text normalisation for every model.",
+        "Same preprocessing and text normalisation for every model. Compare WER only between rows with the same n;",
+        "compare speed only between rows on the same device.",
         "",
-        "| Model | WER | CER | sec / utterance | Real-time factor |",
-        "|---|---|---|---|---|",
+        "| Model | n | WER | CER | sec / utterance | Real-time factor | Device |",
+        "|---|---|---|---|---|---|---|",
     ]
-    for s in sorted(summaries, key=lambda s: s["wer"]):
+    for s in sorted(summaries, key=lambda s: (-int(s["n"]), s["wer"])):
         name = f"**{s['model']}**" if s is best else s["model"]
-        lines.append(f"| {name} | {s['wer']:.3f} | {s['cer']:.3f} | {s['sec_per_utt']} | {s['rtf']} |")
+        lines.append(f"| {name} | {s['n']} | {s['wer']:.3f} | {s['cer']:.3f} | {s['sec_per_utt']} | {s['rtf']} | {s['device']} |")
     (RESULTS / f"benchmark_{label}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     print("\n" + "\n".join(lines))
 
@@ -204,14 +228,11 @@ def main() -> None:
         if not items:
             continue
         print(f"\n===== {label}: {len(items)} utterances =====")
-        summaries, preds = [], {}
         for spec in args.models:
             t0 = time.time()
             summary, rows = run_model(spec, items)
             print(f"{spec}: WER {summary['wer']:.4f}  CER {summary['cer']:.4f}  ({time.time() - t0:.0f}s)")
-            summaries.append(summary)
-            preds[spec] = rows
-        write_outputs(summaries, preds, label, device)
+            write_outputs([summary], {spec: rows}, label, device)   # saved right away
 
 
 if __name__ == "__main__":
