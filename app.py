@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 st.title("🎙️ Talk2TextVN")
-st.caption("Offline Vietnamese Speech-to-Text · Powered by Whisper + Gemma 3n")
+st.caption("Offline Vietnamese Speech-to-Text · Powered by PhoWhisper + Gemma 3n")
 
 # ── Sidebar settings ───────────────────────────────────────────
 with st.sidebar:
