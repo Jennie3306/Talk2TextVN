@@ -1,0 +1,5 @@
+model,n,wer,cer,sec_per_utt,rtf,device
+phowhisper:vinai/PhoWhisper-small,760,0.0618,0.0269,0.844,0.239,Tesla T4
+phowhisper:vinai/PhoWhisper-base,760,0.0802,0.0356,0.361,0.102,Tesla T4
+phowhisper:vinai/PhoWhisper-tiny,760,0.0962,0.0425,0.242,0.069,Tesla T4
+whisper:base,760,0.3824,0.1899,0.245,0.069,Tesla T4

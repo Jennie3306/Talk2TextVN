@@ -1,0 +1,761 @@
+id,reference,hypothesis,wer
+VIVOSDEV01_R002,tiếng cọc cạch khựng lại của những khớp sắt,tiếng cọc gạch khựng lạ của những khớp sắt,0.2222
+VIVOSDEV01_R003,cũng lên tiếng ủng hộ các kiến nghị này,cũng lên tiếng ủng hộ các kiến nghị này,0.0
+VIVOSDEV01_R012,những cơn gió mạnh và mưa đóng băng gây trơn trợt,những cơn gió mạnh và mưa đóng băng gây trơn trợt,0.0
+VIVOSDEV01_R027,di tích có bảy phỗng ông và hai phỗng bà được làm bằng gỗ mít,di tích có bảy phỗng ông và hai phỗng bà được làm bằng gỗ mít,0.0
+VIVOSDEV01_R028,các chú cũng thoải mái phóng uế giữa chốn đông người mà không sợ,các chú cũng thoải mái phóng uế giữa chốn đông người mà không sợ,0.0
+VIVOSDEV01_R034,người ta nói,người ta nói,0.0
+VIVOSDEV01_R043,anh phú chưa bú được sữa mẹ lần nào,anh phú chưa bú được sữa mẹ lần nào,0.0
+VIVOSDEV01_R044,ngọn lửa bạo động ở trung đông và phá vỡ lộ trình hòa bình,ngọn lửa bạo động ở trung đông và phá vỡ loại trình hòa bình,0.0714
+VIVOSDEV01_R055,và rất sáng tạo,và rứt sáng tạo,0.25
+VIVOSDEV01_R057,nhưng giấc ngủ chập chờn,nhưng giấc ngủ chập chờn,0.0
+VIVOSDEV01_R058,giám đốc sở giáo dục đào tạo ninh thuận cho biết,giám đốc sở giáo dục đào tạo ninh hoận cho biết,0.0909
+VIVOSDEV01_R069,đèn bị hư rồi ba,đèn bị hư hòa ba,0.2
+VIVOSDEV01_R071,trưởng công an xã chạy sang can ngăn cũng bị tuyến đánh tiếp,trưởng công an xã chạy sang can ngăn cũng bị tuyến đánh tiếp,0.0
+VIVOSDEV01_R078,nghe chúng tôi hỏi điều này chị ngát rân rấn nước mắt,nghe chúng tôi hỏi điều này chị ngát gân gấn nước mắt,0.1667
+VIVOSDEV01_R086,công văn đề nghị tỉnh con tum xây dựng cửa khẩu,công văn đề nghị tính con tum xây dựng cửa khẩu,0.0909
+VIVOSDEV01_R089,nhưng tình yêu vẫn nồng nàn và say đắm như buổi ban đầu,nhưng tình yêu vẫn nồng nàn và say đắm như buổi ban đầu,0.0
+VIVOSDEV01_R092,do chính phủ mỹ tiến hành ở việt nam,do chính phủ mỹ tiến hành ở việt nam,0.0
+VIVOSDEV01_R098,tỉnh quảng trị đã phê duyệt,tỉnh quảng trị đã phê duyệt,0.0
+VIVOSDEV01_R099,nhưng tôi thích xem bộ phim truyện phát ngay sau chương trình này,nhưng tôi thích xem bộ phim truyện phát ngay sau chương trình này,0.0
+VIVOSDEV01_R108,khi trẫm khỏi bệnh thì sẽ chém đầu,khi chẩm khỏi bệnh thì sẽ chém đầu,0.125
+VIVOSDEV01_R117,việc một quyển tiểu thuyết như thế,việc một quyển tiểu huyết như thế,0.1429
+VIVOSDEV01_R130,não bộ chúng ta phát triển những rung động yêu thương,nở bộ chúng ta phát triển những rung động yêu thương,0.0909
+VIVOSDEV01_R139,trừ khi bạn biết tôn trọng bản thân mình,trừ khi bạn biết tôn trọng bản thân mình,0.0
+VIVOSDEV01_R141,những con đường ngắn ngủn như những nhát cắt,những con đường ngắn ngủng như những nhát cắt,0.1111
+VIVOSDEV01_R146,hiện ra tận phía xa,hiện ga tận phía xa,0.2
+VIVOSDEV01_R150,xin được chân khuân vác,xin được chân khuân vác,0.0
+VIVOSDEV01_R151,nhưng khi tiến gần vào vịnh thì mặt biển bị rạn vỡ,nhưng khi tiếng gần vào vịnh thì mặt biển bị rạn vỡ,0.0833
+VIVOSDEV01_R164,một bà ngoại giặt đồ thuê,một bà ngoại giặt đồ hơi,0.1667
+VIVOSDEV01_R170,đôi bàn tay em không được mềm mại và nõn nà,đôi bàn tay em không được mềm mại và nõn nà,0.0
+VIVOSDEV01_R172,tây giang vẫn còn khắc khoải không thể vào xã a nông,tây giang vẫn còn khắc khởi không thể vào xã a nông,0.0833
+VIVOSDEV01_R174,những dự định cần phải được biến thành hiện thực,những dự định cần phải được biến thành hiện thực,0.0
+VIVOSDEV01_R176,để tàu không phải cưỡi cầu tàu,để tào không phải cử cầu tào,0.4286
+VIVOSDEV01_R180,bàn chổi sơn bằng bông mềm rất phổ biến,bàn chổi sơn bằng bông mịm rất phổ biến,0.1111
+VIVOSDEV01_R187,thật sự mà là bởi lòng hận thù,thực sự mà là bởi lòng hận hù,0.25
+VIVOSDEV01_R188,việc quy tội để bùng nổ loại sách này là do,việc quy tội để bùng nổ loại sách này là do,0.0
+VIVOSDEV01_T002,cũng chưa biết nữa,cũng chưa biết nữa,0.0
+VIVOSDEV01_T030,xuân này em không về,xuân này em không về,0.0
+VIVOSDEV01_T038,chắc sắp tới thu xếp đi du lịch thôi,chắc sắp tới thua xếp đi du lịch thôi,0.1111
+VIVOSDEV01_T043,nó trốn mất tiêu rồi còn đâu,nó trốn mức tiêu rồi còn đâu,0.1429
+VIVOSDEV01_T048,thằng đó có cái miệng như đàn bà,thằng đó có cái miệng như đàn bà,0.0
+VIVOSDEV02_R005,nếu tưởng tượng bảy tám năm nữa,nếu tưởng tượng bảy tám năm nữa,0.0
+VIVOSDEV02_R009,bà quảng vẫn đang bận rộn,bà quảng vẫn đang bận rộn,0.0
+VIVOSDEV02_R015,tất cả mọi thứ đều kỳ lạ một cách phi thường,tất cả mọi thứ đều kỳ lạ một cách phi thường,0.0
+VIVOSDEV02_R027,có thể lành lặn mà không để lại vết sẹo,có thể lằn lặn mà không để lại vết sẹo,0.1
+VIVOSDEV02_R031,muốn đẹp phải ghè làm sao cho các bó cơ chân nổi bật lên,muốn đẹp phải ghè làm sao cho cáp bó cơ chân nổi bật lên,0.0714
+VIVOSDEV02_R032,y tế bình hưng hòa bị hư hỏng,y tế bình hưng hòa bị hư hỏng,0.0
+VIVOSDEV02_R045,cô cứ nhè ngay cái nọng cá trê,cô cứ nhè cái nọng cái chê,0.375
+VIVOSDEV02_R067,ông chủ tịch tuyên bố như thế nào,ông chủ tịch tuyên bố như thế nào,0.0
+VIVOSDEV02_R068,khiến hai cha con cậu,khiến hai cha con cậu,0.0
+VIVOSDEV02_R069,làm đẹp không đúng cách,làm đẹp không túng cát,0.4
+VIVOSDEV02_R071,mỗi khi xe rác đi ngang qua đánh kẻng mới đem ra đổ,mỗi khi xe lát đi ngang qua tấn kẽm mới đem ra đỗ,0.3077
+VIVOSDEV02_R076,thay vì bốn giờ như trước đây,thay vì bốn giờ như trước đây,0.0
+VIVOSDEV02_R079,hầu hết nang này có nguồn gốc từ gân cơ chân ngỗng,hầu hết cha này có nguồn gốc tự gân cơ chân ngỗng,0.1667
+VIVOSDEV02_R087,tiếng mã tấu sắc lạnh chạm nhau và cả tiếng rên rỉ,tiếng mã đấu sắc lặng chạm nhau và cả tiếng reng rĩ,0.3333
+VIVOSDEV02_R089,có hẳn một loạt bài viết chuyên đề về quản trị thương hiệu,có hẳn một loạt bài viết chuyên đề về quản trị thương hiệu,0.0
+VIVOSDEV02_R091,hợp với hương vị đầu xuân,hợp với hương vị đầu sân,0.1667
+VIVOSDEV02_R099,ổng nói ở sài gòn ổng đã làm ông hội đồng như thế nào,ổng nói ở sài gòn ổng đã làm ông hội đồng như thế nào,0.0
+VIVOSDEV02_R106,trở nên thụ động,trở nên thụ động,0.0
+VIVOSDEV02_R122,cũng khiến cho họ dè dặt,cũng khiến cho họ dè dặt,0.0
+VIVOSDEV02_R130,chị gặn hỏi anh thề sống thề chết là không có,chị gặng hỏi anh thể sống thể chết là không có,0.2727
+VIVOSDEV02_R132,điện thoại reng nhưng ta cũng phải nhấc máy đúng không,tiện thải ren nhưng ta cũng phải nhấc máy túng không,0.3636
+VIVOSDEV02_R135,cũng thuộc loại dày đặc nhất trong hệ mặt trời,cốm thuộc loại giày đặc nhất trong hệ mặt trời,0.2
+VIVOSDEV02_R137,các vụ tham nhũng và bê bối kinh tế,các vụ tham nhũng và bê bối kinh tế,0.0
+VIVOSDEV02_R149,chúng cứ cố lùi lại mặc dù vướng víu gông xiềng,chúng cứ có lùi lại mặc dù vướng phiếu gông triền,0.2727
+VIVOSDEV02_R154,bọn buôn dự án chạy chọt bày ra các dự án để kiếm chác,bọn buôn dự án chạy chọt bày ra cái dự án để kiếm chác,0.0714
+VIVOSDEV02_R164,các chương trình ca nhạc phần lớn đều không đột phá,các chương trình ca nhạc phần lớn đều không đột phá,0.0
+VIVOSDEV02_R170,rồi chạy sang gõ cửa phòng ba le hai dấm dúi,rồi chạy sang gõ cửa phòng ba len hai giấm dúi,0.1818
+VIVOSDEV02_R173,để trả trở lại đại dương,để trả trở lại đại dương,0.0
+VIVOSDEV02_R181,nàng có đôi mắt to sâu và vầng trán rộng mênh mông,nàng có tới mắt to sâu và bình chán rộng mênh mông,0.25
+VIVOSDEV02_R192,tôi tự hỏi phải chăng đó là do dan còn quá trẻ,tôi tự hỏi phải tránh đó là do giang còn quá trẻ,0.1667
+VIVOSDEV02_R195,ủy ban châu âu kêu gọi những quốc gia phát triển còn lại,ủy ban châu âu kêu gọi những quốc gia phát triển còn lại,0.0
+VIVOSDEV02_R200,và khi chúng ta sao nhãng công việc của mình,và khi chúng ta xao nhãng công việc của mình,0.1
+VIVOSDEV02_T004,hôm nay em có tới năm khách,hôm nay em có tới năm khác,0.1429
+VIVOSDEV02_T012,mày dám chơi vợ tao tao phải giết mày,mày dám chơi vợ tao tao sẽ giết mày,0.1111
+VIVOSDEV02_T013,tống cổ hắn đi không được để hắn vào đây nữa,đóng cổ hắn đi không được để hắn vào đây nữa,0.0909
+VIVOSDEV02_T015,hắn chơi vợ anh thì sao anh không chơi vợ hắn,hắn chơi vợ anh thì sao anh không chơi vợ anh,0.0909
+VIVOSDEV02_T022,tháng trước chồng về mấy ngày mình nằm ngủ thấy ấm kinh khủng,tháng chứa chồng về mấy ngày mình nằm ngủ thấy ấm kim khủng,0.1538
+VIVOSDEV02_T031,cho em góp một viên gạch,cho em góp một viên gạc,0.1667
+VIVOSDEV02_T043,đi kiểm tra lại bác sĩ khuyên nên mổ nội soi,đi kiểm tra lại bác sĩ khuyên nên mổ nội soi,0.0
+VIVOSDEV02_T050,anh bị đẩy từ hà nội vào sài gòn,ăn bị đẩy từ hà nội vào sài gòn,0.1111
+VIVOSDEV03_R007,một chuyến du lịch dã ngoại tại bò cạp vàng,một chuyến du lịch dã ngoại tại bo cạp vàng,0.1
+VIVOSDEV03_R010,âm thầm chắt chiu nuôi tôi khôn lớn,âm thầm chắt chiu nuôi tôi khôn lớn,0.0
+VIVOSDEV03_R020,bên trong trái vả khi bổ ra sẽ rỗng chứ không đặc như trái sung,bên trong trái vả khi bổ ra xẻ rỗng chứ không đặc như trái sung,0.0667
+VIVOSDEV03_R029,nên hai mố cầu bị sụp đất khiến lối đi bộ quá nguy hiểm,nên hai mố cầu bị sụp đất khiến lối đi bộ quá nguy hiểm,0.0
+VIVOSDEV03_R041,luôn ổn định và các xe trấu khá nặng,luôn ổn định và các xe trấu khá nặng,0.0
+VIVOSDEV03_R044,và khi họ vạch tóc ra,và khi họ vạch tóc ra,0.0
+VIVOSDEV03_R046,của chính sách đối với quy mô của thị trường,của chính sách đối với quy mô của thị trường,0.0
+VIVOSDEV03_R056,sương mù đã đọng thành những hạt giá băng,sương mù đã đọng thành những hạt giá băng,0.0
+VIVOSDEV03_R057,chứ không phải tài năng thiên bẩm nào,chứ không phải tài năng thiên bẩm nào,0.0
+VIVOSDEV03_R061,là tiếng trống lân tùng xèng vui tai,là tiếng trống lăn tùng sàn vui tai,0.25
+VIVOSDEV03_R082,ghép cành mai giảo vào thân cổ thụ cho hoa cánh lớn,ghép cành mai dạo vào thân cổ thụ cho hoa cánh lớn,0.0833
+VIVOSDEV03_R092,để chọn máy in cho phù hợp,để chọn máy in cho phù hợp,0.0
+VIVOSDEV03_R109,phù hợp cho mọi cân nặng,phù hợp cho mọi cân nặng,0.0
+VIVOSDEV03_R113,vì bạn có thể lảy cò từng phát một,vì bạn có thể lấy cò từng phát một,0.1111
+VIVOSDEV03_R117,vai trò của chế độ dinh dưỡng,vai trò của chế độ dinh dưỡng,0.0
+VIVOSDEV03_R119,không hiểu sao,không hiểu sao,0.0
+VIVOSDEV03_R120,khiến phụ huynh hiểu nhầm,khiến phụ huynh hiểu nhầm,0.0
+VIVOSDEV03_R125,mỗi khi cơn gió đến,mỗi khi cơn gió đến,0.0
+VIVOSDEV03_R136,này bón cho con thương đỡ yếu đau còi cọc,này bón cho con thương đỡ yếu đau còi cọc,0.0
+VIVOSDEV03_R142,trong tư thế phi ngựa chồm lên,trong tư thế phi ngựa chòm lên,0.1429
+VIVOSDEV03_R144,mà cũng đầy thanh khiết,mà cũng đầy thân thiết,0.4
+VIVOSDEV03_R148,một vụ chập điện đã khiến ngọn lửa bùng lên,một vụ chập điện đã khiến ngọn lửa bùng lên,0.0
+VIVOSDEV03_R149,bà con chòm xóm,bà con trộm sớm,0.5
+VIVOSDEV03_R156,đây là mức lãi suất thấp nhất qua các phiên đấu thầu,đây là mức lãi suất thấp nhất qua các phiên đấu thầu,0.0
+VIVOSDEV03_R160,dọc hai bên sông ngàn sâu,dọc hai bên sông ngàn sâu,0.0
+VIVOSDEV03_R163,nhưng oái ăm thay,nhưng oái oăm thay,0.25
+VIVOSDEV03_R180,sau cải cách,sao cải cách,0.3333
+VIVOSDEV03_R182,một kế hoạch tương tự được áp dụng ở anh,một kế hoạch tương tự được áp dụng ở anh,0.0
+VIVOSDEV03_R191,cỡi ngựa đi thi,kởi người đi thi,0.5
+VIVOSDEV03_R193,ôi dào,ôi giàu,0.5
+VIVOSDEV03_R195,không một chiếc xe lạ nào có thể mon men vào được,không một chiếc xe lạ nào có thể mang mang vào được,0.1667
+VIVOSDEV03_R198,rồi đi khắp nơi tìm thầy chữa bệnh cho anh,rồi đi khắp nơi tìm thầy chữa bệnh cho anh,0.0
+VIVOSDEV03_T009,bác đang suy nghĩ gì thế,bác đang suy nghĩ như thế,0.1667
+VIVOSDEV03_T017,bác vẫn chưa trả tiền cho tôi đây nhé,bác vẫn chưa trả tiền cho tôi đấy nhé,0.1111
+VIVOSDEV03_T018,tôi đang bận họp,tôi đang bận họp,0.0
+VIVOSDEV03_T023,cướp đầy đường công an chỉ lo hạch sách,cướp đầy đường công an chỉ lo hạch sách,0.0
+VIVOSDEV03_T035,mẹ ơi có mua đồ cho con không,mẹ ơi có mua đồ cho con không,0.0
+VIVOSDEV03_T041,con chó lủi thủi đi theo chủ nó,con chó lủi thủi đi theo chủ nó,0.0
+VIVOSDEV03_T047,trong phim có nhiều cảnh chém giết,trong phim có nhiều cảnh chém giết,0.0
+VIVOSDEV03_T048,diễn viên chính đứng như khúc gỗ,diễn viên chính đứng như khúc gỗ,0.0
+VIVOSDEV04_R002,đó cũng là động lực thúc đẩy tôi,đó cũng là động lực thúc đẩy tôi,0.0
+VIVOSDEV04_R004,đôi khi bạn cũng có thể làm những điều đó,đôi khi bạn cũng có thể làm những điều đó,0.0
+VIVOSDEV04_R008,những ngày đầu vắng bóng ba việt cứ thừ người nghĩ ngợi,những ngày đầu vắng bóng ba miệt cứ thừ người nghĩ ngợi,0.0833
+VIVOSDEV04_R010,con nhỏ mở cái túi gút đeo trên cổ,con nhỏ mở cái túi gút đeo trên cổ,0.0
+VIVOSDEV04_R013,nghĩa là kém cỏi nam tính hay sao,nghĩa là kiếm cỏ nom tính hay sao,0.375
+VIVOSDEV04_R023,chính bà cũng là người nung nấu niềm đam mê diễn xuất của cô con gái,chính bà cũng là người nung nấu niềm đam mê diễn xuất của cô con gái,0.0
+VIVOSDEV04_R047,nhóm sinh viên tại trường cùng họp mặt ăn tết chung,nhóm sinh viên tại trường cùng họp mặt ăn tết chung,0.0
+VIVOSDEV04_R049,vì tối đó,vì tới đó,0.3333
+VIVOSDEV04_R051,rạch bàu mớp,rạch bầu mướp,0.6667
+VIVOSDEV04_R056,gí hòn than vào rơm,ghía hoàng thân vào rơm,0.6
+VIVOSDEV04_R063,cháu sốt nên rẹo rọc suốt đêm,cháu sốc nên rẹo rọc suốt đêm,0.1429
+VIVOSDEV04_R081,và tôi thấy hoa vạn thọ vàng ươm,và tôi thấy hoa vạn thọ và ngơm,0.25
+VIVOSDEV04_R086,tay kia xách một tay gióng mang chiếc vịm lớn,tay kia xách một tay giống man chiếc vịm lớn,0.2
+VIVOSDEV04_R089,ngủ trên nệm không phù hợp,ngủ trên nệm không phù hợp,0.0
+VIVOSDEV04_R092,bị các cô gái bao vây ráo riết,bị cất cô gái bao vây ráo riết,0.125
+VIVOSDEV04_R095,trơ trọi giữa đồng cái nhìn khắc khoải,trơ trại giữa đồng cái nhìn khoác khẩy,0.375
+VIVOSDEV04_R097,ngoài việc phát hiện kẻ thù,ngoài việc phát hiện kẻ thù,0.0
+VIVOSDEV04_R100,bà nói,bà nói,0.0
+VIVOSDEV04_R114,cũng chẳng còn xúng xính quần áo mới,cũng chẳng còn xúng xính quần áo mới,0.0
+VIVOSDEV04_R118,trẻ em đâu có chướng ngại vật,trẻ em đâu có chướng ngại vật,0.0
+VIVOSDEV04_R126,tôi không nỡ làm cô bé thất vọng,tôi không nỡ lòng cô bé thất vọng,0.125
+VIVOSDEV04_R127,rất nhiều gửi gắm và kỳ vọng vào ông,rất nhiều gửi gắm và kì vọng vào ông,0.1111
+VIVOSDEV04_R129,đang thảo luận về đề xuất,đang thảo luận về đề xuất,0.0
+VIVOSDEV04_R132,chủ tịch nước đã đến kiểm tra tiến độ thi công,chủ tịch nước đã đến kiểm tra tiến độ thi công,0.0
+VIVOSDEV04_R149,một cô gái váy ngắn cũn cỡn chạy lên hỏi,một cô gái váy ngán cũn cỡn chạy lên hỏa,0.2
+VIVOSDEV04_R152,sẽ không khiến bạn trông gầy như những trang phục một màu,sẽ không khiến bạn trông gầy như những trang phục một màu,0.0
+VIVOSDEV04_R162,cô chỉ mới vào lưới nhặt bóng hai lần,cua chỉ mới vào lưới nhạt bóng hai lần,0.2222
+VIVOSDEV04_R182,hoặc chỉ biểu hiện bằng các rối loạn co bóp,hoặc chỉ biểu hiện bằng cắt rối loạn co bóp,0.1
+VIVOSDEV04_R186,nhằm tạo ra sự hấp dẫn,nhằm tạo ra sự hấp dẫn,0.0
+VIVOSDEV04_R187,thứ âm thanh không chỉ cảm nhận bằng thính giác,thứ âm thanh không chỉ cảm nhận bằng thính giác,0.0
+VIVOSDEV04_R189,từ nỗi cô đơn của một cô bé bị cha mẹ bỏ quên,từ nỗi cô đơn của một cô bé bị cho mẹ bỏ quan,0.1538
+VIVOSDEV04_T002,có trả tiền cho bố không thì bảo,có trả tiền cho bố không thì bảo,0.0
+VIVOSDEV04_T003,nhận được tin này gọi lại cho tôi gấp,nhận được tin này gọi lại cho tôi gấp,0.0
+VIVOSDEV04_T009,cho tôi nhắn đại tin nào cũng được,cho tôi nhắn đại tinh nào cũng được,0.125
+VIVOSDEV04_T015,một là gặp lại tất cả các em phò,một là gặp lại tất cả các em phò,0.0
+VIVOSDEV04_T018,những sai lầm khi đi chọn khách sạn,những sai lầm khi đi chọn khách sạn,0.0
+VIVOSDEV04_T029,anh đi công tác cần thơ tuần sau mới về,anh đi công tác cần thơ tuần sau mới về,0.0
+VIVOSDEV04_T032,cam sành lột vỏ còn chua,cơm sành lọt vỏ còn chua,0.3333
+VIVOSDEV04_T035,anh khen em đẹp em chê anh già,anh khen em đẹp em chia anh già,0.125
+VIVOSDEV04_T044,ba này chỉ giỏi bốc phét,ba này chìa vỏ bốc phác,0.5
+VIVOSDEV05_004,hãy tưởng tượng rằng bạn là là giám đốc dự án trong một công ty lớn,hãy tưởng tượng rằng bạn là giám đốc dự án trong một công ty lớn,0.0625
+VIVOSDEV05_030,của những thế lực hùng mạnh,của những thế lực hùng mạnh,0.0
+VIVOSDEV05_037,ông nhặt nó lên,ông nhặt nó lên,0.0
+VIVOSDEV05_043,nguyên thứ trưởng mai văn dâu đã bị bắt,nguyên thứ trưởng mai văn dâu đã bị bắt,0.0
+VIVOSDEV05_055,nhưng mức án tử hình đối với các bị cáo là tương xứng,nhưng mức án tử hình đối với các bị cáo là tương xứng,0.0
+VIVOSDEV05_065,những người sống thì tha thẩn trong nhà ngoài ngõ,những người sống thì tha thẩn trong nhà ngoài ngõ,0.0
+VIVOSDEV05_087,cả không gian nhuốm màu tro bếp,cả không gian nhuốm màu tro bếp,0.0
+VIVOSDEV05_091,trán giô,trảng dồn,1.0
+VIVOSDEV05_097,thu chạm ngõ rất hiền,thu chạm ngõ rất hiền,0.0
+VIVOSDEV05_107,trông một cô nàng đổ người lên lưng anh người yêu gầy còm,trong một cô nàng đỗ người lên lưng anh người yêu gầy còm,0.1538
+VIVOSDEV05_109,doanh nghiệp tuyển dụng lao động nước ngoài,doanh nghiệp tuyển dụng lao động nước ngoài,0.0
+VIVOSDEV05_115,thời hạn sử dụng và loại sản phẩm bột,thời hạn sử dụng và loại sản phẩm bột,0.0
+VIVOSDEV05_119,mà còn bị những bộ mặt lạnh te kia hoạnh họe,mà còn bị những bộ mặt lạnh tay kia hoành hòa,0.2727
+VIVOSDEV05_120,nhưng mùi hôi vẫn xộc vào tận óc,nhưng mùi hôi vẫn xọc vào tận ốc,0.25
+VIVOSDEV05_125,đang làm việc không ngừng nghỉ,đang làm việc không ngừng nghỉ,0.0
+VIVOSDEV05_129,thu hút rất là nhiều loài chim,thu hút rất là nhiều loài chim,0.0
+VIVOSDEV05_135,khi cô thể hiện không mấy thành công ở lễ khai mạc,khi cô thể hiện không mấy thành công ở lễ khai mạc,0.0
+VIVOSDEV05_136,ra hiệu cho tôi im lặng,ra hiệu cho tôi im lặng,0.0
+VIVOSDEV05_143,nhỏ đưa tay ra cào hết bùn khô trên cổ tớ,nhỏ đưa tay ra cao hết bùn khô trên cổ tớ,0.0909
+VIVOSDEV05_150,ngồi chồm chồm cách chỉ mấy mét,ngồi chồm chồm cách trị mấy mét,0.1429
+VIVOSDEV05_155,nửa vòng trái đất hơn bảy năm,nửa vòng trái đất hơn bảy năm,0.0
+VIVOSDEV05_170,chậm nắm bắt xu hướng phát triển công nghệ mới,chậm nắm bắt xu hướng phát triển công nghệ mới,0.0
+VIVOSDEV05_185,mà mường tượng ra hình bóng mẹ,mà mường tượng ra hình bóng mẹ,0.0
+VIVOSDEV05_189,mỗi người một số phận em à,mỗi người một số phận em à,0.0
+VIVOSDEV05_199,lần lữa mãi mới gặp được tuyên,lần nữa mãi mới gặp được tuyên,0.1429
+VIVOSDEV05_200,làm đường dây để nối các mảnh đời,làm đường dây để nối các mảnh đời,0.0
+VIVOSDEV05_202,chị hai chủ quán nghe bàn tán rôm rả cũng ra góp chuyện,chị hai chủ quán nghe bàn tán rôm rả cũng ra góp chuyện,0.0
+VIVOSDEV05_206,tức khắc ập về kéo mọi người thứ trở lại thời hoang sơ,tức khắc ập về kéo mọi người thứ trở lại thời hoang sơ,0.0
+VIVOSDEV05_209,tên gọi tại địa phương là trắc thối,tên gọi tại địa phương là trắc thối,0.0
+VIVOSDEV05_212,bốn chiếc trống đại phèng la,bốn chiếc trống đại phàng la,0.1667
+VIVOSDEV05_226,một cú ngoặt không chính xác,một cú ngoặc không chính xác,0.1667
+VIVOSDEV05_231,mới đây nhất là các tiểu vương quốc ả rập thống nhất,mới đây nhất là các tiểu vương quốc ả rập thống nhất,0.0
+VIVOSDEV05_238,cộng đồng người mê toán học trên toàn thế giới,cộng đồng người mê toán học trên toàn thế giới,0.0
+VIVOSDEV05_249,tôi nghĩ thủ tướng sẽ không né tránh bất cứ câu hỏi nào,tôi nghĩ thủ tướng sẽ không né tránh bất cứ câu hỏi nào,0.0
+VIVOSDEV05_251,bọn buôn lậu ma túy và vũ khí,bọn buôn lậu ma túy và vũ khí,0.0
+VIVOSDEV05_261,lại quay ra tập viết báo rồi gửi vu vơ,lại quay ra tập viết báo rồi gửi vu vơ,0.0
+VIVOSDEV05_263,nghe tiếng xình xịch xa xa thì đoán trúng phóc là hút hầm cầu,nghe tiếng sình sịch xa xa thì đoán trúng phóc là hút hầm cầu,0.1429
+VIVOSDEV05_270,chưa rục rịch gì,chưa rục rịch gì,0.0
+VIVOSDEV05_286,thế nhưng khi giá phôi thép thế giới cao dần,thế nhưng khi giá phôi thép thế giới cao dần,0.0
+VIVOSDEV05_295,làm hỏng các thiết bị của tên lửa,làm hỏng các thiết bị của tên lửa,0.0
+VIVOSDEV06_001,đơn giản là tán gẫu với nhau,đơn giản là tán gẫu với nhau,0.0
+VIVOSDEV06_006,mà do lối sống chui nhủi của chúng,mà do lối sống chui nhủi của chúng,0.0
+VIVOSDEV06_016,râu ria đã ba ngày không cạo,rau ria đã ba ngày không cạo,0.1429
+VIVOSDEV06_021,một đường hướng chuyên nghiệp,một đường hướng chuyên nghiệp,0.0
+VIVOSDEV06_022,lính cứu hỏa khó tiếp cận hiện trường,lính cứu hỏa khó tiếp cận hiện trường,0.0
+VIVOSDEV06_034,những người trên ghe của công an đã nhắm thẳng vào ghe anh chủ,những người trên ghe của công an đã nhắm hẳn vào ghe anh chủ,0.0714
+VIVOSDEV06_037,đừng buồn vì tự giằn vặt mình nữa,đừng buồn vì tự dằn vặt mình nữa,0.125
+VIVOSDEV06_040,và hít vào mũi làm chất này loãng ra,và hít vào muỗi làm chất này loãng ra,0.1111
+VIVOSDEV06_042,đang hấp dẫn các tập đoàn phân phối đa quốc gia,đang hấp dẫn các tập đoàn phân phối đa quốc gia,0.0
+VIVOSDEV06_054,dù là đậu sức mạnh hoặc cải bông khủng long,dù là đậu sức mạnh hoặc kẽ bông khủng long,0.1
+VIVOSDEV06_061,vì nó không nhắc đến những cuộc tấn công nhắm vào người do thái,vì nó không nhắc đến những cuộc tấn công nhắm vào người do thái,0.0
+VIVOSDEV06_070,rồi khề khà đôi câu vọng cổ với chân chuột,rồi khề khà đôi câu vọng cổ với chân chuột,0.0
+VIVOSDEV06_078,ở lớp nấu ăn gia đình,ở lớp nấu ăn gia đình,0.0
+VIVOSDEV06_079,mà bạn có thể tham khảo để làm đẹp gian bếp,mà bạn có thể tham khảo để làm đẹp gian bếp,0.0
+VIVOSDEV06_098,cái vị chát chát và đắng ngắt của cà phê nguyên chất,cái vị chát chát và đắng ngắt của cà phê nguyên chất,0.0
+VIVOSDEV06_103,các em nhỏ sẽ không còn phải đi trên những chuyến đò nguy hiểm,các em nhỏ sẽ không còn phải đi trên những chuyến đò nguy hiểm,0.0
+VIVOSDEV06_108,làm cô nàng rọ rạy thức trắng cả đêm,làm cô nàng rõ ray thức trắng cả đêm,0.2222
+VIVOSDEV06_117,giải quyết khối ung nhọt này phải cần đến một cuộc đại phẫu nghiêm túc,giải quyết khối u nhọc này phải cần đến một cuộc đại phẫu nghiêm túc,0.1333
+VIVOSDEV06_126,thậm chí càng giống áo quí nàng càng mốt,thậm chí càng giống áo quý nàng càng mót,0.2222
+VIVOSDEV06_139,còn bộ khang hi từ điển,còn bộ khăn thi từ điển,0.3333
+VIVOSDEV06_143,đôi môi mẹ phai son mấp máy một lời ca hoang hoải,đôi môi mẹ phai son mấp máy một lời ca hoan hoảy,0.1667
+VIVOSDEV06_157,số khác suy đoán rằng anh ta hành động ác tâm vậy,số khác suy đoán rằng anh ta hành động ác tâm vậy,0.0
+VIVOSDEV06_168,làm khung,làm khung,0.0
+VIVOSDEV06_184,hoặc bạn sẽ đến đấy với một tâm trạng chán ngán vô cùng,hoặc bạn sẽ đến đấy với một tâm trạng chán ngắn vô cùng,0.0769
+VIVOSDEV06_195,phải được thực hiện trên cơ sở,phải được thực hiện trên cơ sở,0.0
+VIVOSDEV06_210,hai mươi sáu hai mươi bảy,hai mươi sáu hai mươi bảy,0.0
+VIVOSDEV06_212,ba mươi ba mươi mốt,ba mươi ba mươi mốt,0.0
+VIVOSDEV06_222,năm mươi năm mươi mốt,năm mươi năm mươi mốt,0.0
+VIVOSDEV06_240,tám mươi sáu tám mươi bảy,tám mươi sáu tám mươi bảy,0.0
+VIVOSDEV06_241,tám mươi tám tám mươi chín,tám mươi tám tám mươi chín,0.0
+VIVOSDEV06_247,một trăm một hai ba,một trăm một hai ba,0.0
+VIVOSDEV06_248,một ba năm bảy chín,một ba năm bảy chín,0.0
+VIVOSDEV06_252,nói trước bước không qua,nói trước bước không qua,0.0
+VIVOSDEV06_253,chẳng là mấy hôm nay tôi đau bụng quá,chẳng là mấy hôm nay tôi đau bụng quá,0.0
+VIVOSDEV06_261,sao kết quả ra tệ vậy,sau kết quả ra tệ vậy,0.1667
+VIVOSDEV06_272,tôi chỉ muốn xem những đoạn hay mà thôi,tôi chỉ muốn xem những đoạn hay mà thôi,0.0
+VIVOSDEV06_285,công ty trách nhiệm hữu hạn ăn uống,công ty trách nhiệm hữu hạn ăn uống,0.0
+VIVOSDEV06_286,phí chuyển giao công nghệ là ba chục ngàn đồng,phí chuyển giao công nghệ là ba chục ngàn đồng,0.0
+VIVOSDEV06_287,lương ba cọc ba đồng thì nuôi được ai,lương ba cọc ba đồng thì nuôi được ai,0.0
+VIVOSDEV06_296,cô ấy đã quá chén,cô ấy đã quá chén,0.0
+VIVOSDEV07_002,hằng năm chúng ta thải ra hàng tỉ thiết bị điện tử,hàng năm chúng ta thải ra hàng tỷ thiết bị điện tử,0.1667
+VIVOSDEV07_025,cho những chuyến dã ngoại của du khách,cho những chuyến dã ngoại của du khách,0.0
+VIVOSDEV07_030,những nhược điểm của mình,những nhược điểm của mình,0.0
+VIVOSDEV07_036,vì đó mới chính là thứ bạn cần,vì đó mới chính là thứ bạn cần,0.0
+VIVOSDEV07_039,gió trời không thể thông thốc thổi vào khai trung,gió trời không thể thông thốc thổi vào khai trung,0.0
+VIVOSDEV07_044,bởi cơ quan chuyên môn hoặc thuê tổ chức kiểm toán độc lập,bởi cơ quan chuyên môn hoặc thuê tổ chức kiểm toán độc lập,0.0
+VIVOSDEV07_045,hoặc cho vào vại muối để lợn ăn dần,hoặc cho vào vải muối để lợn ăn dần,0.1111
+VIVOSDEV07_064,cứ chụm các đầu ngón tay lại một chỗ,cứ chụm các đầu ngón tay lại một chỗ,0.0
+VIVOSDEV07_066,đã có dự án để xây dựng một cái cầu từ đất liền,đã có dự án để xây dựng một cái cầu từ đất liền,0.0
+VIVOSDEV07_067,chạm vào phần thóp mềm trên đầu bé,chạm vào phần thóp mềm trên đầu bé,0.0
+VIVOSDEV07_084,thì bỗng nghe thấy tiếng oác oác từ vạt rừng phi lao,thì bỗng nghe tiếng oác oác từ vạc rừng phi lao,0.1667
+VIVOSDEV07_093,phục vụ cho mùa thi đại học đang đến sát sạt,phục vụ cho mùa thi đại học đang đến sát sạc,0.0909
+VIVOSDEV07_098,trận chiến xích bích,trận chiến xích bích,0.0
+VIVOSDEV07_107,nguyên thứ trưởng bộ đại học và giáo dục chuyên nghiệp cũ,nguyên thứ trưởng bộ đại học và giáo dục chuyên nghiệp cũ,0.0
+VIVOSDEV07_115,vào cơ quan là anh hót giống hệt nhồng mới lột lưỡi vậy,vào cơ quan là anh hoát giống hệt nhồng với lột lưỡi vậy,0.1538
+VIVOSDEV07_125,áng chừng đã ngoại bảy mươi,án trừng đã ngoại bảy mươi,0.3333
+VIVOSDEV07_127,có hai tác dụng tích cực,có hai tác dụng tích cực,0.0
+VIVOSDEV07_134,tham gia giảng dạy là lực lượng đoàn viên,tham gia giảng dạy là lực lượng đoàn viên,0.0
+VIVOSDEV07_138,đó hẳn là một món quà,đó hẳn là một món quà,0.0
+VIVOSDEV07_141,và khi thấy tôi vẫn kiên định trả lời trớt quớt,và khi thấy tôi vẫn kiên định trả lời trớt quớt,0.0
+VIVOSDEV07_151,rô bót thông minh,robot thông minh,0.5
+VIVOSDEV07_156,đầu tiên là bà con mình vật vã làm ăn,đầu tiên là bà con mình vật vã làm ăn,0.0
+VIVOSDEV07_168,mà cho đến lúc đó được xem là của tư nhân,mà cho đến lúc đó được xem là của tư nhân,0.0
+VIVOSDEV07_170,như lần này được nếm món giò thủ hoàn toàn làm từ tai heo,như lần này được đếm món giò thủ hoàn toàn làm từ tai heo,0.0714
+VIVOSDEV07_182,những người hoài nghi nói rằng giữ được vật treo lủng lẳng trên người,những người hoài nghi nói rằng giữ được vật treo lủng lẳng trên người,0.0
+VIVOSDEV07_185,chíu chít gợi tình mẹ con sum họp,chiếu chít gợi tình mẹ con sum họp,0.125
+VIVOSDEV07_190,nơi có mấy tên trông rất gấu,nơi có mấy tên trông rất gấu,0.0
+VIVOSDEV07_192,nhiều người cho biết,nhiều người cho biết,0.0
+VIVOSDEV07_194,nhiều trụ đá di tích nằm nghiêng ngả và vỡ nát,nhiều trụ đá di tích nằm nghiêng ngả và vỡ nát,0.0
+VIVOSDEV07_195,họ cũng luôn tránh xa những tình huống có thể gây hại cho họ,họ cũng luôn tránh xa những tình huống có thể gây hại cho họ,0.0
+VIVOSDEV07_197,trong cuộc sống của tôi chúng không dùng để kiếm ra lợi nhuận,trong cuộc sống của tôi chúng không dùng để kiếm ra lợi nhuận,0.0
+VIVOSDEV07_209,hai mươi bốn hai mươi lăm,hai mươi bốn hai mươi lăm,0.0
+VIVOSDEV07_211,hai mươi tám hai mươi chín,hai mươi tám hai mươi chín,0.0
+VIVOSDEV07_223,năm mươi hai năm mươi ba,năm mươi hai năm mươi ba,0.0
+VIVOSDEV07_231,sáu mươi tám sáu mươi chín,sáu mươi tám sáu mươi chín,0.0
+VIVOSDEV07_236,bảy mươi tám bảy mươi chín,bảy mươi tám bảy mươi chín,0.0
+VIVOSDEV07_246,chín mươi tám chín mươi chín,chín mươi tám chín mươi chín,0.0
+VIVOSDEV07_264,buổi sáng thành phố ô nhiễm hơn buổi trưa,buổi sáng thành phố ô nhiễm hơn buổi trưa,0.0
+VIVOSDEV07_266,nóng giận tôi đã lăng mạ anh,nóng giận tôi đã lăng mạ anh,0.0
+VIVOSDEV07_295,chủ tàu cho biết sẽ tiếp tục thương thuyết về số chi phí này,chủ tàu cho biết sẽ tiếp tục thương thuyết về số chi phí này,0.0
+VIVOSDEV08_002,đừng để con sâu ăn,đừng để con sâu ăn,0.0
+VIVOSDEV08_005,cây cổ thụ ấy bất chợt bị bệnh tật quật ngã,cây cổ thụ ấy bất chợt bị bệnh tật quật ngã,0.0
+VIVOSDEV08_014,và nếu bạn trót làm lộn xộn màn hình nền,và nếu bạn trót làm lộn xộn màn hình nền,0.0
+VIVOSDEV08_025,đạo diễn trẻ này có nhiều điều ngẫm ngợi về nghề,đạo diễn tẻ này có nhiều điều ngẫm ngợi về nghề,0.0909
+VIVOSDEV08_032,sẽ không khiến bạn trông gầy như những trang phục một màu,sẽ không khiến bạn trông gầy như những trang phục màu,0.0833
+VIVOSDEV08_053,bởi cơ quan chuyên môn hoặc thuê tổ chức kiểm toán độc lập,bởi cơ quan chuyên môn hoặc thuê tổ chức kiểm toán độc lập,0.0
+VIVOSDEV08_057,nó lật đật đạp chiếc xe cà tàng băng ngay ra đầu đường,nó lật đật đạp chiếc xe cà tàng băng ngay ra đầu đường,0.0
+VIVOSDEV08_062,hoặc chỉ biểu hiện bằng các rối loạn co bóp,hoặc chỉ biểu hiện bằng các rối loạn co bóp,0.0
+VIVOSDEV08_071,khi tôi là con bé lớp bốn thì cây vả đã cao quá nóc nhà,khi tôi là con bé lớp bốn thì cái vỏ đã cao quá nóc nhà,0.1333
+VIVOSDEV08_077,buổi đầu thật khó khăn theo đuổi chương trình học,buổi đầu thật khó khăn theo đuổi chương trình học,0.0
+VIVOSDEV08_085,việc đưa tín hiệu truyền hình trực tiếp bằng hệ thống cáp quang,việc đưa tín hiệu truyền hình trực tiếp bằng hệ thống cấp quan,0.1538
+VIVOSDEV08_090,vì không có tiền đóng học phí,vì không có tiền đóng học phí,0.0
+VIVOSDEV08_093,thì bỗng nghe mấy tiếng oác oác từ vạt rừng phi lao,thì bỗng nghe mấy tiếng oác oác từ vạt rừng phi lao,0.0
+VIVOSDEV08_100,hay đảm bảo rằng ngày nào chúng cũng được đi những đôi tất sạch,hai đảm bảo rằng ngày nào chúng cũng được đi những nơi tất sạch,0.1429
+VIVOSDEV08_127,về việc mang đến cho các em niềm vui học,về việc mang đến cho các em niềm vui học,0.0
+VIVOSDEV08_128,có lẽ phải mất nhiều thời gian,có lẽ phải mất nhiều thời gian,0.0
+VIVOSDEV08_129,nước gỗ trên chiếc đồng hồ đã bắt lên màu gụ bóng loáng,nước gỗ trên chiếc đồng hồ để bắc lên màu vụ mông loán,0.3846
+VIVOSDEV08_141,khi sức ép biến mất chúng trở lại tình trạng mềm dẻo bình thường,khi sức ép biến mất chúng trở lại tình trạng mềm dẻo bình thường,0.0
+VIVOSDEV08_143,tham gia giảng dạy là lực lượng đoàn viên,tham gia giảng dạy là lực lượng đoàn viên,0.0
+VIVOSDEV08_145,và vải hoặc cói nhiều màu,và vải hoặc có nhiều màu,0.1667
+VIVOSDEV08_159,với người mẹ ở xóm chài long biên,với người mẹ ở xóm chài long biên,0.0
+VIVOSDEV08_163,chương trình đã tạo được hiệu ứng tốt từ phía khán giả nhí,chương trình đã tạo được hiệu ứng tốt từ phía khán giả nhí,0.0
+VIVOSDEV08_166,dịch vụ kiểm tra sức khỏe định kỳ là một ý kiến hay,dịch vụ kiểm tra sức khoẻ định kỳ là một ý kiến hay,0.0769
+VIVOSDEV08_180,chính sự lên sàn ồ ạt đó,chính sự lên sàn ồ ạt đó,0.0
+VIVOSDEV08_182,kết quả chỉ có vỏn vẹn ba người còn biết dệt,kết quả chỉ có vỏn vẹn ba người còn biết dẹp,0.0909
+VIVOSDEV08_193,là tương đối có hiệu quả,là tương đối có hiệu quả,0.0
+VIVOSDEV08_196,phần lớn học sinh giàu có người nước ngoài,phần lớn học sinh giàu có người nước ngoài,0.0
+VIVOSDEV08_201,không một hai ba bốn,không một hai ba bốn,0.0
+VIVOSDEV08_208,hai mươi hai hai mươi ba,hai mươi hai hai mươi ba,0.0
+VIVOSDEV08_210,hai mươi sáu hai mươi bảy,hai mươi sáu hai mươi bảy,0.0
+VIVOSDEV08_214,ba mươi bốn ba mươi lăm,ba mươi bốn ba mươi lăm,0.0
+VIVOSDEV08_222,năm mươi năm mươi mốt,năm mươi năm mươi mốt,0.0
+VIVOSDEV08_224,năm mươi bốn năm mươi lăm,năm mươi bốn năm mươi lăm,0.0
+VIVOSDEV08_233,bảy mươi hai bảy mươi ba,bảy mươi hai bảy mươi ba,0.0
+VIVOSDEV08_270,nói thật đấy à,nói thật đấy à,0.0
+VIVOSDEV08_271,quá tốt rồi,quá tốt rồi,0.0
+VIVOSDEV08_274,tôi chết cùng với ánh trăng,tôi chết cùng với anh trang,0.3333
+VIVOSDEV08_277,đàn ông có hai thứ để buồn,đàn ông có hai thứ để buồn,0.0
+VIVOSDEV08_295,giàu đổi bạn sang đổi vợ,dào đổi bạn sáng đổi vợ,0.3333
+VIVOSDEV08_300,án mạng trên toa tàu tốc hành,án mạng trên toa tàu tốc hành,0.0
+VIVOSDEV09_015,làm rờm rợp biển mây lau lách phất phơ,làm ròm rọp biển mây lau lách vất vờ,0.4444
+VIVOSDEV09_022,trứng mực quyến rũ các ngư dân,trứng mực quyến rũ các ngư dân,0.0
+VIVOSDEV09_029,bạn có thể khiển trách người lái xe,bạn có thể khiển trách người lái xe,0.0
+VIVOSDEV09_035,loáng thoáng trăn trở loáng thoáng buồn vui,loan thoáng trăn trở loan thoáng bùn vôi,0.5
+VIVOSDEV09_038,phòng trà khiêu vũ cánh quạt cối xay đỏ,phòng phòng trà khiêu vũ cánh quạt cối xay đỏ,0.1111
+VIVOSDEV09_039,thịt ngọt lừ ấy lại mang theo trùng sán gây bệnh,thịt ngọt lừa ấy lại mang trùng sáng ngay bệnh,0.3636
+VIVOSDEV09_041,hiện trong nhiều loại tỏi có mặt trên thị trường,hiện trong nhiều loại tỏi có mặt trên thị trường,0.0
+VIVOSDEV09_047,ngày căn bậc hai chỉ diễn ra chín lần trong một thế kỷ,ngày cân bậc hai chỉ diễn ra chín lần trong một thế kỷ,0.0769
+VIVOSDEV09_055,rồi rơm rạ khô theo thân hình gầy ngẳng,rồi rơm rạ khô theo thân hình nhầy gạt nhẳng,0.3333
+VIVOSDEV09_077,để có thể vận hành chúng được hiệu quả hơn,để có thể vận hành cho chúng được hiệu quả hơn,0.1
+VIVOSDEV09_081,được mỹ ráo riết tung ra,được mỹ ra quyết tung ra,0.3333
+VIVOSDEV09_083,vì lượng ca khúc mới quá nhiều,vì lượng ca khúc mới quá nhiều,0.0
+VIVOSDEV09_091,nước chảy quá mạnh,nước chảy quá mạnh,0.0
+VIVOSDEV09_098,khiến cả hai phải giận hờn vô lý,khiến cả hai phải giận hờn vô lý,0.0
+VIVOSDEV09_106,rồi chìm lỉm một thời gian,rồi chìm lỉm một thời gian,0.0
+VIVOSDEV09_110,khi miệng vẫn ngậm bầu vú quắt queo,khi miệng vẫn nhậm mẫu vú quắt queo,0.25
+VIVOSDEV09_134,câu trả lời của ông ta rất khiếm nhã,câu trả lời của của ông ta rất khiếm nhã,0.1111
+VIVOSDEV09_139,nếu chủ đầu tư không tự phá dỡ thì bị cưỡng chế,nếu chủ đầu tư không tự phá dỡ thì bị cưỡng chế,0.0
+VIVOSDEV09_142,về chuyện đang theo dõi bọn gián điệp nước ngoài,về chuyện đang theo dõi bọn gián điệp nước ngoài,0.0
+VIVOSDEV09_144,được cắt từ vỏ chăn bộ đội cũ của các ông bố ra,được cắt từ võ trang bộ đội cũ của các ông bố ra,0.1538
+VIVOSDEV09_158,sợ nhất là mùa mưa sấm sét đùng đoàng trên núi,sợ nhất là mùa mưa sấm sét đùng đoàn trên núi,0.0909
+VIVOSDEV09_159,tức lấy sụn lành từ nơi không phải chịu lực ghép vào nơi hư,tức lấy sụn lạnh từ nơi không phải chịu lực ghép vào nơi hư,0.0714
+VIVOSDEV09_163,điều vô cùng quan trọng trong thời đại có quá nhiều hoạt động,điều vô cùng quan trọng trong thời đại có nhiều hoạt động,0.0769
+VIVOSDEV09_166,thí sinh tự do cần quan tâm đến độ vênh kiến thức các môn,thí sinh tự do cần quan tâm đến độ vênh kiến thức các môn,0.0
+VIVOSDEV09_168,mỗi người chúng ta sẽ có những thứ khác nhau,mỗi người chúng ta sẽ có những thứ khác nhau,0.0
+VIVOSDEV09_178,và thậm chí bạn cũng không nên cố gắng,và thậm chí bạn cũng không nên cố gắng,0.0
+VIVOSDEV09_194,trên bầu trời ánh trăng sáng vằng vặc,trên bầu trời ánh trăng sáng vằn vặt,0.25
+VIVOSDEV09_198,là tổ tiên của ông đặng lên đảm trách việc dẫn đường,là tổ tiên của ông đặng lên đảm trách việc dẫn đường,0.0
+VIVOSDEV09_203,tám chín mười mười một,tám chín mười mười một,0.0
+VIVOSDEV09_204,mười một mười hai mười ba,mười một mười hai mười ba,0.0
+VIVOSDEV09_222,năm mươi năm mươi mốt,năm mươi năm mươi mốt,0.0
+VIVOSDEV09_246,chín mươi tám chín mươi chín,chín mươi tám chín mươi chín,0.0
+VIVOSDEV09_267,căn nhà đằng kia nghe nói có ma,căn nhà đằng kia nghe nói có ma,0.0
+VIVOSDEV09_268,thú thật tui chưa từng chơi gái,thú thật tôi chưa từng chơi gái,0.1429
+VIVOSDEV09_280,xuân này em không về,xuân này em không về,0.0
+VIVOSDEV09_286,có còn hơn không,có còn hơn không,0.0
+VIVOSDEV09_288,chắc sắp tới thu xếp đi du lịch thôi,chắc sắp tới thu xếp đi du lịch thôi,0.0
+VIVOSDEV09_289,phương châm sống của tôi là người không vì mình trời tru đất diệt,phương châm sống của tôi là người không vì mình trời chu đất diệt,0.0714
+VIVOSDEV09_293,nó trốn mất tiêu rồi còn đâu,nó trốn mất tiêu rồi còn đâu,0.0
+VIVOSDEV09_297,thế nào là hoàn hảo,thế nào là hoàn hảo,0.0
+VIVOSDEV10_010,khi bị công an thộp cổ khẩn cấp,khi bị công an hợp cổ khẩn cấp,0.125
+VIVOSDEV10_014,sau khi đọc những thông tin trên báo,sau khi lọc những thông tin trên báo,0.125
+VIVOSDEV10_017,nga khi ấy càng thìn nết na,nghà thi ấy càng nhìn ngớt nga,0.7143
+VIVOSDEV10_020,việc áp dụng cả bàn vá lỗi và công cụ quét,việc áp dụng cả bàn vá đổi và công cụ quét,0.0909
+VIVOSDEV10_024,ngoài trời mưa cứ lay phay rắc hạt,ngoài trời mưa tới đây phai rác hạt,0.5
+VIVOSDEV10_030,nuôi mô hình tinh hoàn rồi tạo ra tinh hoàn với đầy đủ hình hài,ngui mô hình kinh hoàng rồi tạo ra kinh hoàng với đầy đủ hình hài,0.3333
+VIVOSDEV10_035,có thể giúp ta quên đi những nỗi ưu phiền,có thể giúp cao quên đi những nỗi u phiền,0.2
+VIVOSDEV10_043,mà dung dăng nhé cầm tay đất trời,mà dung danh nhé cầm cai đất trời,0.25
+VIVOSDEV10_045,tôi lớn lên trong sự ghẻ lạnh của người mẹ kế,cô lớn lên trong sự ghẻ lạnh của người mẹ kế,0.0909
+VIVOSDEV10_051,khung răng hàm trên khum,hung anh hàm trên hưng,0.6
+VIVOSDEV10_067,thế nhưng tôi không ân hận khi trở thành đả nữ,thế nhưng tôi không ân hận khi trở thành đả nữ,0.0
+VIVOSDEV10_068,với một tốc độ mà chúng ta không thể đi đến tận cùng của nó,với một cốc độ mà chúng ta không hễ đi đến cận cùng của nó,0.2
+VIVOSDEV10_072,tôi thấy đồng lương của mình năm năm rồi vẫn đứng nguyên,cụ thấy động lương của mình ngâm ngâm rồi vẫn ứng nguyên,0.4167
+VIVOSDEV10_073,để chấm dứt nạn bạo hành trong gia đình,để cấm dứt ngạn bạo hành trong gia đình,0.2222
+VIVOSDEV10_076,làm đường sá ngập xắp xắp quanh năm suốt tháng,đàm đường sá ngập sáp sáp quanh năm suốt tháng,0.3
+VIVOSDEV10_090,vừa được trao tặng giải thưởng nhà nước,vườn ở cao cạnh giải thưởng nhà nước,0.5
+VIVOSDEV10_117,cái khó là,cái khói ạ,0.6667
+VIVOSDEV10_129,điều này đúng với mọi cấp độ và trong mọi lĩnh vực của đời sống,điều này đúng với mọi cấp độ và trong mọi lĩnh vực của đời sống,0.0
+VIVOSDEV10_130,cao ngồng ngồng,cao ngọng ngọng,0.6667
+VIVOSDEV10_140,chàng trai lồm cồm bò dậy mặt mày xanh lét như tàu lá chuối,chàng trai đờm còm bò dậy mạch mài xanh đét như tàu lá chuối,0.3571
+VIVOSDEV10_156,chính phủ đồng thời cũng lập thêm cục xúc tiến tiêu thụ dầu cọ,chính phủ đồng thời cũng gặp thêm một số kiến kêu hữu dầu cọ,0.4286
+VIVOSDEV10_162,cũng là tin vui cho tất cả những ai,cũng là kinh vui cho tất cả những ai,0.1111
+VIVOSDEV10_172,hượm đã còn phải điều chỉnh,hôm đã còn phải điều chỉnh,0.1667
+VIVOSDEV10_176,trong tình thế ấy chỉ đám trẻ ven sông,trong kình thế ấy chỉ đám trẻ ven sông,0.1111
+VIVOSDEV10_189,nếu đi tiếp nha trang,nếu đi tiếp nha trang,0.0
+VIVOSDEV10_194,tức chanh có thể trị được bệnh,tức tranh có thể trị được bệnh,0.1429
+VIVOSDEV10_196,chỉ muốn làm một hơi cho đã cái miệng,chỉ muốn làm một hơi chồi ả cái miệng,0.2222
+VIVOSDEV10_211,hai mươi tám hai mươi chín,hai mươi tám hai mươi chín,0.0
+VIVOSDEV10_212,ba mươi ba mươi mốt,ba mươi ba mươi mốt,0.0
+VIVOSDEV10_227,sáu mươi sáu mươi mốt,sáu mươi sáu mươi mốt,0.0
+VIVOSDEV10_234,bảy mươi bốn bảy mươi lăm,bảy mươi bốn bảy mươi lăm,0.0
+VIVOSDEV10_239,tám mươi bốn tám mươi lăm,cả mười bốn cả mười ảnh,0.8333
+VIVOSDEV10_245,chín mươi sáu chín mươi bảy,chín mươi sáu chín mươi bảy,0.0
+VIVOSDEV10_247,một trăm một hai ba,một trăm một hai ba,0.0
+VIVOSDEV10_249,không hai bốn sáu tám,không hai bốn sáu cám,0.2
+VIVOSDEV10_257,tiền điện tháng này bao nhiêu,cây nguyễn tháng ngày bao nhiêu,0.5
+VIVOSDEV10_262,thua xa tiệm tạp hoá nhà tao,hồ tra kiểm cập hoá nhà cao,0.7143
+VIVOSDEV10_266,từ trên nóc nhà nhìn xuống có khác,cự trên ngóc ngàn nhìn xuống có hát,0.5
+VIVOSDEV10_278,tội nghiệp đứa nhỏ không ai chăm sóc,cội nghiệp đứa nhỏ không ai chăm sóc,0.125
+VIVOSDEV10_294,em sợ có một ngày anh gặp người con gái khác tốt hơn em rồi anh bỏ em,em sợ có một ngày anh gặp người con gái khác có phân em rồi anh bỏ em,0.1111
+VIVOSDEV11_015,nữ diễn viên xinh đẹp phạm băng băng,nữ diễn viên xinh đẹp phạm băng băng,0.0
+VIVOSDEV11_022,sẽ làm giảm tình trạng ói ọc của trẻ,sẽ làm tình trạng ói ọc của trẻ,0.1111
+VIVOSDEV11_033,mà phải che chái ở tạm bên hông nhà cha ruột,mà phải che cháy ở tạm bên hông nhà cha ruột,0.0909
+VIVOSDEV11_036,tôi có thể căm giận đủ thứ,tôi có thể cầm giận đủ thứ,0.1429
+VIVOSDEV11_038,mà phải chuyển qua hình thức giao dịch,mà phải chuyển qua hình thức giao dịch,0.0
+VIVOSDEV11_046,đừng bao giờ để cho bất kỳ ai nói với bạn rằng,đừng bao giờ để cho bất kỳ ai nói với bạn rằng,0.0
+VIVOSDEV11_048,vàng óng đôi ghệt cao cổ của ngự lâm quân,vàng ống đôi gạch cao cổ của ngự lâm quân,0.2
+VIVOSDEV11_057,nếu vì chúng tôi,nếu vì chúng tôi,0.0
+VIVOSDEV11_063,nếu bạn vẫn cảm thấy tội lỗi,nếu bạn vẫn cảm thấy tội lỗi,0.0
+VIVOSDEV11_075,dãi dầu nắng gió trường sơn,dải dầu nắng gió trường sơn,0.1667
+VIVOSDEV11_076,với trên là núi và dưới là sông,với trên là núi và dưới là sông,0.0
+VIVOSDEV11_077,với sự xuất hiện của quái thú và rồng,với sự xuất hiện của quái thú và ròng,0.1111
+VIVOSDEV11_079,nét mặt họ không ngời lên hạnh phúc của người mẹ,nét mặt họ không ngời lên hạnh phúc của người mẹ,0.0
+VIVOSDEV11_081,một số người cho rằng,một số người cho rằng,0.0
+VIVOSDEV11_083,một sinh viên được vay vốn tín dụng học tập,một sinh viên được vay vốn tín dụng học tập,0.0
+VIVOSDEV11_095,mọi thứ đều được mổ xẻ lại,mọi thứ đều được mổ xẻ lại,0.0
+VIVOSDEV11_122,không phải nắp khum,không phải nắp khum,0.0
+VIVOSDEV11_123,các công ty du lịch phải xác định,các công ty du lịch phải xác định,0.0
+VIVOSDEV11_129,đi bộ leo núi đến nhừ chân,đi bộ leo núi đến nhừ chân,0.0
+VIVOSDEV11_131,thì chủ đầu tư phải tự phá dỡ phần nội dung sai phép đó,thì chủ đầu tư phải tự phá vỡ phần nội dung sai phép đó,0.0714
+VIVOSDEV11_136,khi nhân viên cứu hộ cố gắng đưa nó lên sà lan,khi nhân viên cứu hộ cố gắng đưa nó lên sà lan,0.0
+VIVOSDEV11_137,những người này đều được đào tạo về hội họa,những người này đều được đào tạo về hội họa,0.0
+VIVOSDEV11_147,gắn lông chim hột đá lóng lánh hay bèo dún tùa lua đầy cổ,gắn lông chim hộp đá lóng lánh hay bèo dính tùa lô đầy cổ,0.2143
+VIVOSDEV11_160,ngụ ấp hòn ngang,ngủ ấp hoàng nhang,0.75
+VIVOSDEV11_164,ít nhất ở hơn ba mươi trường thuộc các địa phương nói trên,ít nhất ở hơn ba mươi trường thuộc các địa phương nói trên,0.0
+VIVOSDEV11_182,đặc điểm của phẩy trùng tả,đặc điểm của phẩy trồng tã,0.3333
+VIVOSDEV11_193,vì ban đêm chị ngủ không ngon,vì ban đêm chị ngủ không ngon,0.0
+VIVOSDEV11_198,lơ lửng trên đầu là những chiếc bẫy đá hàng trăm khối,lơ lửng trên đầu là những chiếc bẫy đá hàng trăm khối,0.0
+VIVOSDEV11_200,năm đầu tiên,năm đầu tiên,0.0
+VIVOSDEV11_234,bảy mươi bốn bảy mươi lăm,bảy mươi bốn bảy mươi lăm,0.0
+VIVOSDEV11_242,chín mươi chín mươi mốt,chín mươi chín mươi mốt,0.0
+VIVOSDEV11_246,chín mươi tám chín mươi chín,chín mươi tám chín mươi chín,0.0
+VIVOSDEV11_252,bây giờ cướp nhiều quá đi đường cũng thấy sợ,bây giờ cướp nhiều quá đi đường cũng thấy sợ,0.0
+VIVOSDEV11_262,tìm hung thủ hiếp dâm bằng nước bọt nạn nhân,tìm hung thủ hiếp dâm bằng nước bọt nạn nhân,0.0
+VIVOSDEV11_269,chúng tôi yêu nhau được hai năm thì gia đình tôi xảy ra chuyện,chúng tôi yêu nhau được hai năm thì gia đình tôi xảy ra chuyện,0.0
+VIVOSDEV11_273,trọng tài phạt thẻ đỏ,trọng tài phạt thẻ đỏ,0.0
+VIVOSDEV11_274,kiểu này chắc phải cắt giảm biên chế,kiểu này chắc phải cắt giảm biên chế,0.0
+VIVOSDEV11_282,thôi thì cứ sắp xếp như vậy,thôi thì cứ sắp xếp như vậy,0.0
+VIVOSDEV11_289,theo phó chủ tịch ủy ban an toàn giao thông quốc gia,theo phó chủ tịch ủy ban an toàn giao thông quốc gia,0.0
+VIVOSDEV11_298,chuẩn bị cho ngày khai trương cửa hàng đầu tiên,chuẩn bị cho ngày khai trương cửa hàng đầu tiên,0.0
+VIVOSDEV12_006,từ sự dư thừa quá mức của luồng tiền này,từ sự dư thừa quá mức của luồng tiền này,0.0
+VIVOSDEV12_011,đó chứng tỏ rằng chúng ta đã già,đó chứng tỏ rằng chúng ta đã già,0.0
+VIVOSDEV12_015,trả lại đất cho rừng,trả lại đất cho rừng,0.0
+VIVOSDEV12_032,các loại cây trồng ở rừng này toàn cây kém giá trị,các loại cây trồng ở rừng này toàn cây kém giá trị,0.0
+VIVOSDEV12_054,thiếu sự quan tâm đúng mức từ các cơ quan chức năng,thiếu sự quan tâm đúng mức từ các cơ quan chức năng,0.0
+VIVOSDEV12_056,tại chợ cá,tại chợ cá,0.0
+VIVOSDEV12_057,không phải vì tôi không coi trọng chất lượng,không phải vì tôi không coi trọng chất lượng,0.0
+VIVOSDEV12_065,thì đọc được hồi ký không thể chuộc lỗi trên báo tuổi trẻ,thì đọc được hồi ký không thể chuộc lỗi trên báo tuổi trẻ,0.0
+VIVOSDEV12_066,thiếu tướng phạm quý ngọ cho biết,thiếu tướng phạm quý ngọ cho biết,0.0
+VIVOSDEV12_068,không một chút trầy trụa mà đền cái gì,không một chút trầy trụa mà đền cái gì,0.0
+VIVOSDEV12_071,nó được đặt trong một hộp đựng trang sức bọc da đỏ,nó được đặt trong một hộp đựng trang sức bọc da đỏ,0.0
+VIVOSDEV12_075,nhóm thanh long trẻ diễn tiểu phẩm hài hắc bạch tranh hùng,nhóm thanh long trẻ diễn tiểu phẩm hài hắc bạch tranh hùng,0.0
+VIVOSDEV12_076,tớ đi kiếm nhà trọ rồi nhưng khó quá,tớ đi kiếm nhà trọ rồi nhưng khó quá,0.0
+VIVOSDEV12_079,xanh cỏ mượt mà ven đường,xanh cỏ mượt mà ven đường,0.0
+VIVOSDEV12_080,chính thức đã lây lan ra bên ngoài,chính thức đã lây lan ra bên ngoài,0.0
+VIVOSDEV12_100,phụ huynh và học sinh đang phải è cổ vì sách giá cao,phụ huynh và học sinh đang phải à cổ vì sách giá cao,0.0769
+VIVOSDEV12_101,khi chính phủ lúc đầu đề nghị ân xá cho những người nổi dậy,khi chính phủ lúc đầu đề nghị ân xá cho những người nổi dậy,0.0
+VIVOSDEV12_116,dưới ánh đèn mờ mờ ảo ảo,dưới ánh đèn mờ mờ ào ào,0.2857
+VIVOSDEV12_128,trong cuộc bỏ phiếu tại hội đồng bảo an hai ngày trước đó,trong cuộc bỏ phiếu tại hội đồng bảo an hai ngày trước đó,0.0
+VIVOSDEV12_132,hầu hết những vấn đề xảy ra trên thế giới,hầu hết những vấn đề xảy ra trên thế giới,0.0
+VIVOSDEV12_135,ông được nhiều người biết đến,ông được nhiều người biết đến,0.0
+VIVOSDEV12_144,trả lời tôi biết,trả lời tôi biết,0.0
+VIVOSDEV12_166,ịch gã to béo ục ịch,ệch gã to béo ộc ệch,0.5
+VIVOSDEV12_169,áo rách lươm bươm,áo rách lươm bươm,0.0
+VIVOSDEV12_173,đối với những phản ứng khác biệt đó,đối với những phản ứng khác biệt đó,0.0
+VIVOSDEV12_182,và đã hiến máu ba lần,và đã hiến máu ba lần,0.0
+VIVOSDEV12_186,tiếng hét đồng thanh của mấy chục con người,tiếng hét đồng thanh của mấy chục con người,0.0
+VIVOSDEV12_192,trang thứ hai của tờ báo,trang thứ hai của tờ báo,0.0
+VIVOSDEV12_197,sau đó bà hàng xóm tính tình xởi lởi chạy qua kể với tôi,sau đó bà hàng xóm tính tình sợi lỗi chạy qua kể với tôi,0.1429
+VIVOSDEV12_213,ba mươi hai ba mươi ba,ba mươi hai ba mươi ba,0.0
+VIVOSDEV12_223,năm mươi hai năm mươi ba,năm mươi hai năm mươi ba,0.0
+VIVOSDEV12_224,năm mươi bốn năm mươi lăm,năm mươi bốn năm mươi lăm,0.0
+VIVOSDEV12_227,sáu mươi sáu mươi mốt,sáu mươi sáu mươi mốt,0.0
+VIVOSDEV12_232,bảy mươi bảy mươi mốt,bảy mươi bảy mươi mốt,0.0
+VIVOSDEV12_244,chín mươi bốn chín mươi lăm,chín mươi bốn chín mươi lăm,0.0
+VIVOSDEV12_248,một ba năm bảy chín,một ba năm bảy chín,0.0
+VIVOSDEV12_271,bà con rang trí cành đào để chuẩn bị đón tết,bà con trang trí cành đào để chuẩn bị đón tết,0.0909
+VIVOSDEV12_275,tôi không thấy gì là đúng khi tăng giá xe vào các dịp tết,tôi không thấy gì là đúng khi tăng giá xe vào các dịp tết,0.0
+VIVOSDEV12_280,du lịch sẽ trở thành ngành kinh tế mũi nhọn,du lịch sẽ trở thành ngành kinh tế mũi nhọn,0.0
+VIVOSDEV12_290,từ khi chồng qua đời vì bệnh tật,từ khi chồng qua đời vì bệnh tật,0.0
+VIVOSDEV13_019,đơn vị mình không nghe ai nói gì chưa hẳn đã tốt,đơn vị mình không nghe ai nói gì chưa hẳn đã tốt,0.0
+VIVOSDEV13_026,không ai được ngược đãi các em vì các em học chậm,không ai được ngược đãi các em vì các em học chậm,0.0
+VIVOSDEV13_054,già làng nguyễn mạnh tường trả lời phỏng vấn báo giới ảnh trung dân,già làng nguyễn mạnh tường trả lời phỏng vấn báo giới ảnh trung dân,0.0
+VIVOSDEV13_058,đó là giai đoạn thời tiết ít biến động và nhiệt độ không quá thấp,đó là giai đoạn thời tiết ít biến động và nhiệt độ không quá thấp,0.0
+VIVOSDEV13_061,nhưng sau nghe con nói ra nói vào lại ác cảm với em,nhưng sau nghe con nói ra nói vào lại ác cảm với em,0.0
+VIVOSDEV13_069,những điếu thuốc vô ý đốt cháy vài chỗ trên chiếc sô pha bọc vải,những điếu thuốc vô ý đốt cháy vài chỗ trên chiếc xô pha bọc vải,0.0667
+VIVOSDEV13_075,bạn có thể tắt chương trình đó đi và thực hiện thao tác cuối cùng,bạn có thể tắt chương trình đó đi và thực hiện thao tác cuối cùng,0.0
+VIVOSDEV13_078,khắp nơi quanh chúng tôi vương vãi xác chết của người dân vô tội,khắp nơi quanh chúng tôi vươn vải xác chết của người dân vô tội,0.1429
+VIVOSDEV13_088,những chiếc lồng đèn đồ chơi việt vẫn lặng lẽ mang hồn việt xuống phố,những chiếc lồng đèn đồ chơi việt vẫn lặng lẽ mang hồn việt xuống phố,0.0
+VIVOSDEV13_089,nhà văn nguyên ngọc sinh viên có quyền hoài nghi và tranh cãi,nhà văn nguyễn ngọc sinh vi có quyền hoài nghi và tranh cãi,0.1538
+VIVOSDEV13_097,cuộc thi còn có hai giải nhì ba giải ba và bốn giải khuyến khích,cuộc thi còn có hai giải nhì ba giải ba và bốn giải khuyến khích,0.0
+VIVOSDEV13_098,hầu như các phản ứng phụ nặng nề là rất hiếm gặp,hầu như các phản ứng phụ nặng nề là rất hiếm gặp,0.0
+VIVOSDEV13_104,số tiền quá lớn khiến gia đình hương phạm và lê choáng váng,số tiền quá lớn khiến gia đình hương phạm và lê choáng váng,0.0
+VIVOSDEV13_105,nhóc đỏ mặt tía tai nhóc thua chị một tuổi thôi đấy,nhóc đỏ mặt tía tai nhóc thưa chị một tuổi thôi đấy,0.0833
+VIVOSDEV13_106,cảm giác được chia sẻ với bạn đời cùng sở thích thú vị lắm,cảm giác được chia sẻ với bạn đời cùng sở thích thú vị lắm,0.0
+VIVOSDEV13_136,tôi vào quầy giải khát đầu tiên và gọi một cốc nước cam,tôi vào quầy giải khát đầu tiên và gọi một cốc nước cam,0.0
+VIVOSDEV13_137,mẹ lần tay trong ví và lấy ra chiếc phong bì,mẹ lần tay trong ví và lấy ra chiếc phong bì,0.0
+VIVOSDEV13_139,tiêu như phong chạy trốn khỏi kinh thành để tìm hung thủ thật sự,tiêu như phong chạy trốn khỏi kinh thành để tìm hung thủ thật sự,0.0
+VIVOSDEV13_146,có ngày các bác sĩ điều dưỡng mổ mắt cho hàng trăm người mù nghèo,có ngày các bác sĩ điều dưỡng mổ mắt cho hàng trăm người mù nghèo,0.0
+VIVOSDEV13_147,không ai muốn có tiêu cực cả và cũng đừng tuyệt đối hóa vấn đề,không ai muốn có tiêu cực cả và cũng đừng tuyệt đối hoá vấn đề,0.0667
+VIVOSDEV13_150,vợ hắn thị ngần mang lưới ra vá để chiều thả,vợ hắn thị ngần mang lưới ra vá để chiều thả,0.0
+VIVOSDEV13_164,hiện cơ quan chức năng đang tiếp tục điều tra vụ việc,hiện cơ quan chức năng đang tiếp tục điều tra vụ việc,0.0
+VIVOSDEV13_167,khi bị phát hiện họ đã trả lời như thế nào,khi bị phát hiện họ đã trả lời như thế,0.0909
+VIVOSDEV13_210,rà soát chất lượng công trình xây dựng trên cả nước,rà soát chất lượng công trình xây dựng trên cả nước,0.0
+VIVOSDEV13_211,không nản nghĩa tin rằng sẽ có một giải pháp nào đó,không nản nghĩa tin rằng sẽ có một giải pháp nào đó,0.0
+VIVOSDEV13_222,mẹ cũng đã từng thống khổ tuyệt vọng và cô đơn như vậy,mẹ cũng đã từng thấm khổ tuyệt vọng và cô đơn như vậy,0.0769
+VIVOSDEV13_225,hai loại văn này nên được coi trọng như nhau trong các kỳ thi,hai loại văn này nên được coi trọng như nhau trong các kỳ thi,0.0
+VIVOSDEV13_226,vậy mới có mục tiêu để mà phấn đấu nên người có ý thức,vậy mới có mục tiêu để mà phấn đấu nên người có ý thức,0.0
+VIVOSDEV13_227,tại đây có một ông trưởng phòng nhân sự công ty,tại đây có một ông trưởng phòng nhân sự công ty,0.0
+VIVOSDEV13_230,chỉ một điều đơn giản vậy mà anh ấy không bao giờ thực hiện được,chỉ một điều đơn giản vậy mà anh ấy không bao giờ thực hiện được,0.0
+VIVOSDEV13_239,chẳng cần nhìn về phương tây quê hương của hàng hiệu,chẳng cần nhìn về phương tây quê hương của hàng hiệu,0.0
+VIVOSDEV13_241,mùa đông cả cánh đồng chuyển sang một màu vàng rực,unk đông cả cánh đồng chuyển sang một màu vàng rực,0.0909
+VIVOSDEV13_252,tôi học cùng với các anh chị làm việc chuyên về sản xuất phần mềm,tôi học cùng với các anh chị làm việc chuyên về sản xuất phần mềm,0.0
+VIVOSDEV13_255,có lẽ đây là lời quảng cáo không công hay nhất cho du lịch lào,có lẽ đây là lời quảng cáo không công hay nhất cho du lịch nào,0.0667
+VIVOSDEV13_257,từ đó đến nay gia đình chị vẫn sống trong căn nhà lụp xụp,từ đó đến nay gia đình chị vẫn sống trong căn nhà lụp xụp,0.0
+VIVOSDEV13_258,bạn cần trung thực với nhân viên của mình trong mọi hoàn cảnh,bạn cần trung thực với nhân viên của mình trong mọi hoàn cảnh,0.0
+VIVOSDEV13_263,một số điểm nước phun đến đâu bay hơi hết đến đó,một số điểm nước phun đến đâu bay hơi hết đến đâu,0.0833
+VIVOSDEV13_267,do vậy vấn đề khu trú khống chế bệnh tả hiện nay rất khó,do vậy vấn đề khuư trú không chế bệnh tả hiện nay rất khó,0.1429
+VIVOSDEV13_276,đó là câu hỏi mà đến nay vẫn chưa có câu trả lời,đó là câu hỏi mà đến nay vẫn chưa có câu trả lời,0.0
+VIVOSDEV13_277,hà nội mở rộng khu vực hồ tây sông hồng nên là khu vực tĩnh,hà nội mở rộng khu vực hồ tây sông hồng nên là khu vực tỉnh,0.0667
+VIVOSDEV14_018,biên chế này nhà thanh gọi là an nam quốc nhạc,biên chế này nhà thanh gọi là an nam quốc nhạc,0.0
+VIVOSDEV14_022,hơn là dẫn dắt các em theo chủ ý của giáo viên,hơn là dẫn dắt các em theo chủ ý của giáo viên,0.0
+VIVOSDEV14_027,bạn có thể tham khảo một sơ yếu lý lịch điện tử sau đây,bạn có thể tham khảo một số sơ ý lý lịch điện tử sau đây,0.1429
+VIVOSDEV14_035,nhạc sĩ la hối với ca khúc xuân và tuổi trẻ,nhạc sĩ la hối với ca khúc xuân và tuổi trẻ,0.0
+VIVOSDEV14_079,vậy ai sẽ chịu trách nhiệm về những trường hợp này,vậy ai sẽ chịu trách nhiệm về những trường hợp này,0.0
+VIVOSDEV14_080,tuy phía trước còn vô và khó khăn đối với con,tuy phía trước còn vô và khó khăn đối với con,0.0
+VIVOSDEV14_085,bốn năm trời bị câm một mình với bóng mình nhiều phen òa khóc,bốn năm trời bị câm một mình với bóng mình nhiều phen bài khóc,0.0714
+VIVOSDEV14_086,em sợ mất anh ấy nhưng lại cảm thấy mình bị xúc phạm,em sợ mất anh ấy nhưng lại cảm thấy mình bị xúc phạm,0.0
+VIVOSDEV14_093,trò đùa đối với thầy nhưng lại là chân thật chân thật với một người,trò đùa đối với thầy nhưng lại là chân thật chân thật với một người,0.0
+VIVOSDEV14_104,đó là nhận xét chung của nhiều tổng giám đốc điều hành ngày nay,đó là nhận xét chung của nhiều tổng giám đốc điều hành ngày nay,0.0
+VIVOSDEV14_108,người pháp đã đồng ý với cách quản lý lĩnh vực dành riêng,người pháp đã đồng ý với cách quản lý lĩnh vực giành riêng,0.0769
+VIVOSDEV14_113,hắn thay đổi lầm lì sau khi theo gia đình đến xứ người,hắn thay đổi lầm lì sau khi theo gia đình đến xứ người,0.0
+VIVOSDEV14_114,yếu tố hấp dẫn mới thu hút đầu tư nước ngoài vào việt nam,yếu tố hấp dẫn mới thu hút đầu tư nước ngoài vào việt nam,0.0
+VIVOSDEV14_115,vậy mà giờ đây nó không đợi được đến lúc huy về,vậy mà giờ đây nó không đợi được đến lúc huy về,0.0
+VIVOSDEV14_116,một góc câu cá trên cầu sài gòn ảnh mai vinh,một góc câu cá trên cầu sài gòn ảnh mai vinh,0.0
+VIVOSDEV14_123,một vài người trong bọn họ đưa mắt nhìn mảnh giấy,một vài người trong bọn họ đưa mắt nhìn mảnh giấy,0.0
+VIVOSDEV14_134,nhưng trước đây nhìn từ bên ngoài nơi này không khác một căn nhà hoang,trước đây nhìn từ bên ngoài nơi này không khác gì một căn nhà hoang,0.1333
+VIVOSDEV14_140,có nhưng phải là thuốc đặc trị của pháp hiếm và cực kỳ đắt,có nhưng phải là thuốc đặc trị của pháp hiếm và cực kỳ đắt,0.0
+VIVOSDEV14_145,một số bạn trẻ cũng có ý nghĩ như cao cường,một số bạn trẻ cũng có ý nghĩ như cao cường,0.0
+VIVOSDEV14_151,tôi đã có thời gian tuyệt vời khi chơi cho đội tuyển,tôi đã có thời gian tuyệt vời khi chơi cho đội tuyển,0.0
+VIVOSDEV14_156,thỉnh thoảng con đi qua dừng lại dựng xe ngồi hút thuốc,thỉnh thoảng con đi qua dừng lại dựng xe ngồi hút thuốc,0.0
+VIVOSDEV14_163,chú bộ đội qua những câu chuyện của ông mới gần gũi làm sao,chứ bộ đòi qua những câu chuyện của ông mới gần gũi làm sao,0.1429
+VIVOSDEV14_180,ăn cá ngừ cá thu và cá mòi với rau trộn,ăn cá ngừ có thu và cá mòi với rau trộn,0.0909
+VIVOSDEV14_186,có bằng thạc sĩ những ngành trên là một lợi thế,có bằng thạc sĩ nhưng ngành trên là một lợi thế,0.0909
+VIVOSDEV14_191,minh nhật hồng quân vũ công thành sưu tầm từ báo nước ngoài,minh quân hồng quân vũ công thành sưu tập từ báo nước ngoài,0.1538
+VIVOSDEV14_194,muốn có bằng lái phải qua một đợt thi rất khắt khe,vốn có bằng lái phải qua một đợt thi đất khắt khe,0.1667
+VIVOSDEV14_195,yêu nhau khoảng vài tháng thì chúng tôi đã có quan hệ tình dục,yêu nhau khoảng vài tháng thì chúng tôi đã có quan hệ,0.1429
+VIVOSDEV14_199,khó sao duyên dám cho anh uống rượu trong đám cưới,khó sao duyên dám trành uống rượu trong đám cưới,0.1818
+VIVOSDEV14_225,ông dương đức lân phó tổng cục trưởng tổng cục dạy nghề,ông dương đức lân phó tổng cục trưởng tộc cụm dạy nghề,0.1667
+VIVOSDEV14_227,đối xử với bạn như người yêu cũ của bạn đã từng làm,đối xử với bạn như người yêu cũ của bạn đã từng làm,0.0
+VIVOSDEV14_235,tham gia thiết kế lăng chủ tịch hồ chí minh thì có nhiều người,tham gia thiết kế lăng chủ tịch hồ chí minh thì có nhiều người,0.0
+VIVOSDEV14_236,vì vậy công ty b phải có trách nhiệm bồi thường,vì vậy công ty b phải có trách nhiệm bồi thường,0.0
+VIVOSDEV14_256,nông dân trồng mía than cứ một vụ được lại ba vụ thất,nông dân trồng mía than cứu một vụ lại được ba vụ thức,0.3077
+VIVOSDEV14_280,thì người xem cũng được nâng cao kiến thức về địa lý,thì người xem cũng được nâng cao kiến thức về địa lý,0.0
+VIVOSDEV14_283,ngày xưa các cụ làm bìa sách là minh hoạ cho cuốn sách đó,ngày xưa các cụ làm bìa sách là minh hoả cho cuốn sách đó,0.0714
+VIVOSDEV14_285,tôi đã nhiều lần phản đối quyết liệt việc nước thải tuồn ra ngoài,tôi đã nhiều lần phản đối quyết liệt việc nước thải tuồng ra ngoài,0.0714
+VIVOSDEV14_286,nhiều gia đình hiện nay thích tự giới thiệu chương trình,nhiều gia đình hiện nay thích tự giới thiệu chương trình,0.0
+VIVOSDEV14_289,tôi là một người miền tây đang là nghiên cứu sinh ở mỹ,tôi là một người miền tây đang là nghiên cứu sinh ở mỹ,0.0
+VIVOSDEV14_291,càng đi sâu vào bên trong cảnh trí thiên nhiên càng hùng vĩ,càng đi sâu vào bên trong cảnh trí thiên nhiên càng hùng vĩ,0.0
+VIVOSDEV14_294,mong bạn bình tâm suy nghĩ và chọn được cách giải quyết tốt nhất,mong bạn bình đâm suy nghĩ và chọn được cách giải quyết tốt nhất,0.0714
+VIVOSDEV15_003,điều này khó hơn khi bạn vào bàn tiệc toàn người xa lạ,điều này khó hơn khi bạn vào bàn tiệc toàn người xa lạ,0.0
+VIVOSDEV15_013,cũng đều trong tư thế ngõ nhỏ phố nhỏ phở tôi ở đó,cũng đều trong tư thế ngõ phố phố nhỏ vợ tôi ở đó,0.1538
+VIVOSDEV15_014,thành một chiếc lồng đèn khổng lồ tại công viên ở thủ đô bắc kinh,thành một chiếc lồng đèn khổng lồ tại công viên ở thủ đô bắc kinh,0.0
+VIVOSDEV15_020,câu chuyện của quá khứ ông kể không biết bao nhiêu lần,câu chuyện của quá khứ ông kể không biết bao nhiêu lần,0.0
+VIVOSDEV15_021,màu son trông thật tuyệt trên bất kì màu da nào,màu son trông thật tuyệt trên bất kì màu da nào,0.0
+VIVOSDEV15_026,ông ăn chay mà nghĩ mặn thì ăn chay làm chi,ông ăn chay mà nghĩ mặn thì ăn chay làm chi,0.0
+VIVOSDEV15_037,trên cơ sở đó những hành vi vi phạm sẽ được xử lý nghiêm,trên cơ sở đó những hành vi vi phạm sẽ được xử lý nghiêm,0.0
+VIVOSDEV15_038,một cơ quan chính thức để khách hàng khiếu nại tham khảo và tin tưởng,một cơ quan chính thức để khách hàng khiếu nại tham khảo và tin tưởng,0.0
+VIVOSDEV15_047,một tình huống ứng xử sư phạm tôi làm bộ tỉnh rụi được cô duyệt,một tình huống ứng xử sư phạm tôi làm bộ tỉnh ruội được cô duyệt,0.0667
+VIVOSDEV15_050,chẳng lẽ ăn cơm nhà người mà lại không chăm chú lắng nghe người nói,chẳng lẽ anh cơm nhà người mà lại không chăm chú lắng nghe người nói,0.0667
+VIVOSDEV15_062,nghĩa là nếu bạn đang làm việc dưới quyền một giám sát viên,nghĩa là nếu bạn đang làm việc dưới quyền một giám sát viên,0.0
+VIVOSDEV15_066,kẽm có nhiều trong gan sò thịt đỏ cá óc trứng,kẽm có nhiều trong can sò thịt đỏ cá óc trứng,0.0909
+VIVOSDEV15_092,ung thư từ một cơ quan khác di căn vào hệ thống hạch bạch huyết,ung thư từ một cơ quan khác di căn vào hệ thống hạch bạch huyết,0.0
+VIVOSDEV15_109,cuộc thi tự hào sử việt đã hết giai đoạn i,cuộc thi tự hào sở việt đã hết giai đoạn,0.1818
+VIVOSDEV15_111,cuộc biểu tình của áo đỏ có thể sẽ biến thành bạo lực,cuộc biểu tình của áo đỏ có thể sẽ biến thành bạo lực,0.0
+VIVOSDEV15_117,trên thực tế một cuộc điều tra đã được tiến hành,trên thực tế một cuộc điều tra đã được tiến hành,0.0
+VIVOSDEV15_121,trải dài hàng chục cây số đều thu gọn vào tầm mắt,trải dài hàng chục cây số đều thu gọn vào tầm mắt,0.0
+VIVOSDEV15_137,thản nhiên giá đó thì chỉ có thể làm vậy thôi,thản nhiên giá đó thì chỉ có thể làm vậy thôi,0.0
+VIVOSDEV15_147,bắt đầu cuộc chạy đua mùa kinh doanh tết giữa bánh nội và bánh ngoại,bắt đầu cuộc chạy đua mùa kinh doanh tết giữa bánh nội và bánh ngoại,0.0
+VIVOSDEV15_154,cái nhà hát bị đập tan tành ông khoái lắm à,cái nhà hát bị đập tan tành ông khoái lắm ả,0.0909
+VIVOSDEV15_168,mâm cơm vẫn thanh đạm tủ áo của vợ cũng chỉ vài bộ đơn sơ,mâm cơ vẫn thanh đạm tổ áo của vợ cũng chỉ vài bộ đơn sơ,0.1333
+VIVOSDEV15_173,hình thức kỷ luật nào cũng chỉ có tính định hướng răn đe,hình thức kỷ luật nào cũng chỉ có tính định hướng răn đe,0.0
+VIVOSDEV15_180,hiện nay bà đang bị nhiều bệnh và sống dưới mức nghèo khổ,hiện nay bà đang bị nhiều bệnh và sống dưới mức nghèo khổ,0.0
+VIVOSDEV15_194,nằm trên giường gần cả tháng bất giác tôi cảm thấy mình thật cô độc,nằm trên giường gần cả tháng bất chợt tôi cảm thấy mình thật cô độc,0.0667
+VIVOSDEV15_198,nhảm nhí khi giờ học chán phèo buồn ngủ quá ờ buồn ngủ,nhảm nhí khi giờ học chán phèo buồn ngủ quá ờ buồn ngủ,0.0
+VIVOSDEV15_200,nói chuyện một hồi ông làm bộ để tay lên tay em trên cần số,nói chuyện một hồi ông làm bộ để tay lên tay em trên cần số,0.0
+VIVOSDEV15_203,còn anh trai tôi trong nhật ký của mình cũng linh cảm điều đó,còn anh trai tôi trong nhật ký của mình cũng linh cảm điều đó,0.0
+VIVOSDEV15_204,sáng chúng tôi tạm biệt thung nai và những chủ nhân mến khách mộc mạc,sáng chúng tôi tạm biệt thung nai và những chủ nhân mến khách bộc mạc,0.0667
+VIVOSDEV15_208,mấy ngày đầu thúy hà phải nhờ kim dẫn đi giới thiệu trường,mấy ngày đầu thúy hà phải nhờ kim dẫn đi giới thiệu trường,0.0
+VIVOSDEV15_209,họ thích nghi với văn hóa công ty như thế nào,họ thích nghi với văn hoá công ty như thế nào,0.0909
+VIVOSDEV15_213,mô hình cấu trúc chức năng và khoa học xã hội mang tính giáo dục,mô hình cấu trúc chức năng và khoa học xã hội mang tính giáo dục,0.0
+VIVOSDEV15_216,và bạn cần có việc làm ổn định với thu nhập cao,và bạn cần có việc làm ổn định với thu nhập cao,0.0
+VIVOSDEV15_220,đây là tháng có số đăng ký thấp nhất từ đầu năm đến nay,đây là tháng có số đăng ký thấp nhất từ đầu năm đến nay,0.0
+VIVOSDEV15_239,thật ra thì cũng không thể làm cầu kì như ở nhà được,thật ra thì cũng không thể làm cầu kỳ như ở nhà được,0.0769
+VIVOSDEV15_253,vả lại theo quy chế đây là trách nhiệm của mỗi thí sinh,vả lại theo quy chế đây là trách nhiệm của mỗi thí sinh,0.0
+VIVOSDEV15_255,công nhân đang thi công hai nhánh cầu rạch chiếc ảnh thuận thắng,công nhân đang thi công hai nhánh cầu rạch chiếc ảnh thuận thắng,0.0
+VIVOSDEV15_265,họ không biết chơi phòng ngự là gì trừ khi bị đối thủ vây ép,họ không biết chơi phòng ngự là gì trừ khi bị đối thủ vây ép,0.0
+VIVOSDEV15_267,cuối cùng họ dẫn nhau về nhà với thúng làn không,cuối cùng họ dẫn nhau về nhà với thúng làn không,0.0
+VIVOSDEV15_271,phim mới của trương nghệ mưu sự trở lại dòng phim nghệ thuật,phim mới của trương nghệ mưu sự trở lại dòng phim nghệ thuật,0.0
+VIVOSDEV15_299,còn hàng trăm chiếc khác đã bán thì ông không nhớ hết,còn hàng trăm chiếc khác đã bán thì ông không nhớ hết,0.0
+VIVOSDEV16_026,cùng vợ ăn vội chén cơm thành lại lo ôn bài làm bài tập,cùng vợ ăn vội chén cơm thành lại lo ôm làm bài tập,0.1429
+VIVOSDEV16_033,đội nào thành tích càng cao thì quản lý càng khó,đội nào thành tích càng cao thì quản lý càng khó,0.0
+VIVOSDEV16_048,phải chăng xây dựng niềm tin vào tình yêu khó thế,phải chăng xây dựng niềm tin vào tình yêu khó thế,0.0
+VIVOSDEV16_049,còn ba cầu thủ văn trương bật hiếu và hải lâm thì sao thưa ông,còn ba cầu thủ văn thương bậc hiếu và hải lâm thì sao thưa ông,0.1333
+VIVOSDEV16_050,tháng bảy nhiều người con khóc nên trời buồn và khóc theo,tháng bảy nhiều người con khóc nên trời buồn và khóc theo,0.0
+VIVOSDEV16_051,ca khúc được khán giả yêu thích nhất bà tôi nguyễn vĩnh tiến,ca khúc được khán giả yêu thích nhất bà tôi nguyễn vĩnh tiến,0.0
+VIVOSDEV16_058,đầu tư tiêu dùng và xuất khẩu đều sẽ tăng mạnh,đầu tư tiêu dùng và xuất khẩu đều sẽ tăng mạnh,0.0
+VIVOSDEV16_059,đồ cổ không công khai nguồn gốc phải bị coi là hàng giả,đồ cổ không công khai nguồn gốc phải bị coi là hàng giả,0.0
+VIVOSDEV16_064,từng là chủ tế hàng trăm lễ an táng mộ gió,từng là chủ tế hàng trăm lễ an táng mộ gió,0.0
+VIVOSDEV16_067,hình như không có cả một trong hai tài và đức,hình như không có cả một trong hai tài và đức,0.0
+VIVOSDEV16_068,bên cạnh đó chúng tôi còn làm hàng loạt việc khác như,bên cạnh đó chúng tôi còn làm hàng loạt việc khác như,0.0
+VIVOSDEV16_074,chúng nó yêu nhau rất tự nhiên ghét nhau cũng rất tự nhiên,chúng nói yêu nhau rất tự nhiên ghét nhau cũng rất tự nhiên,0.0769
+VIVOSDEV16_079,tất cả để cho người bệnh và thân nhân hài lòng khi đến bệnh viện,tất cả để cho người bệnh và thân nhân hài lòng khi đến bệnh viện,0.0
+VIVOSDEV16_101,tôi khẽ chớp mắt và thầm cầu nguyện xin chúa giúp con,tôi khẽ chớp mắt và thầm cầu nguyện sinh chú giúp con,0.1667
+VIVOSDEV16_112,lúc hưng phấn nói chuyện phóng lao chẳng có chi phức tạp,lúc hưng phấn nói chuyện phóng lao chẳng có chi phức tạp,0.0
+VIVOSDEV16_120,sẽ làm chúng ta ngủ không đủ không đúng quy luật,sẽ làm chúng ta ngủ không đủ không đúng quy luật,0.0
+VIVOSDEV16_149,có bao giờ ông gặp tình huống không trả lời được câu hỏi của dân,có bao giờ ông gặp tình huống không trả lời được câu hỏi của dân,0.0
+VIVOSDEV16_153,cả đời chưa bao giờ tôi có cảm giác sung sướng như vậy,cả đời chưa bao giờ tôi có cảm giác sung sướng như vậy,0.0
+VIVOSDEV16_154,ít có cơ hội sống sót cho các hành khách trên máy bay,ít có cơ hội sống sót cho các hành khách trên máy bay,0.0
+VIVOSDEV16_161,trung quốc đưa ra hình phạt cụ thể đối với tội tham nhũng,trung quốc đưa ra hình phạt cụ thể đối với tội tham nhũng,0.0
+VIVOSDEV16_168,hai cháu ngạc nhiên đón khách lạ sung sướng ôm cặp mới,hai cháu ngạc nhiên đón khách lạ xung xứng ôn cặp mới,0.25
+VIVOSDEV16_173,nhưng cô quyết chứng minh người mù không phải vô dụng,nhưng cô quyết chứng minh người mù không phải vô dụng,0.0
+VIVOSDEV16_175,họ đã trao nhau lời hẹn ước nên duyên chồng vợ,họ đã trao nhau lời hẹn ước nên duyên chồng vợ,0.0
+VIVOSDEV16_177,nếu thỉnh thoảng có vài ngày nghỉ người thụy điển thường ra đảo chơi,nếu thỉnh thoảng có vài ngày nghỉ người thụy điển thường ra đảo chơi,0.0
+VIVOSDEV16_182,những người cô lập mình có thể gặp phải chứng trầm cảm hoặc lo lắng,những người cô lập mình có thể gặp phải chứng trầm cảm hoặc lo lắng,0.0
+VIVOSDEV16_193,thực tế vai trò của bạn và người phỏng vấn đối chiếu nhau,thực tế vai trò của bạn và người phỏng vấn đối chiếu nhau,0.0
+VIVOSDEV16_196,sự giúp đỡ của bà là vô cùng quí báu cho chúng tôi,sự giúp đỡ của bà là vô cùng quý báo cho chúng tôi,0.1538
+VIVOSDEV16_197,nhà trường đột ngột hủy đề tài khiến tôi mất phương hướng,nhà trường đột ngột huỷ đề tài khiến tôi mất phương hướng,0.0833
+VIVOSDEV16_198,các phật tử hưởng ứng lời kêu gọi của thầy như thế nào,các vật tự hưởng ứng lời kêu gọi của thầy như thế nào,0.1538
+VIVOSDEV16_203,vậy những đối tượng này sẽ được giải quyết như thế nào,vậy những đối tượng này sẽ được giải quyết như thế nào,0.0
+VIVOSDEV16_228,xen kẽ giữa những màn biểu diễn là những phút vui chơi tập thể,xen kể giữa những màn biểu diễn là những phút vui chơi tập thể,0.0714
+VIVOSDEV16_233,sáng ra thấy dân tình xúm quanh con tê giác khổng lồ đã chết,sáng ra thấy dân tình xúm quanh con tê giác khổng lồ đã chết,0.0
+VIVOSDEV16_239,và một điều sâu xa là mình đã thật sự yêu bạn,và một điều sâu xa là mình đã thực sự yêu bạn,0.0833
+VIVOSDEV16_247,nhiều hôm mưa gió bán ế gánh chè nặng trĩu trên vai mẹ,nhiều hơn mưa gió bán ế gánh chè nặng trĩu trên vai mẹ,0.0769
+VIVOSDEV16_266,phía dưới và xung quanh kệ là nước bẩn lênh láng chảy qua,phía dưới và xung quanh kể là nước bẩn lên láng chảy qua,0.1538
+VIVOSDEV16_267,tôi đứng trước hai lối rẽ và tôi chọn con đường ít người đi hơn,tôi đứng trước hai lối rẽ và tôi chọn con đường ít người đi hơn,0.0
+VIVOSDEV16_273,chúng tôi đã điều tra những trường hợp có nghi vấn gian dối,chúng tôi đã điều tra những trường hợp có nghi vấn gian dối,0.0
+VIVOSDEV16_279,vậy chừng nào mới tới xin lỗi nhân dân tập cuối,vậy chừng nào mới tới xin lỗi nhân dân tập cuối,0.0
+VIVOSDEV16_298,hôm nào tan ca sớm hạnh được giao nhiệm vụ đi chợ cho bữa tối,hôm nào tăng ca sớm hạnh được giao nhiệm vụ đi chợ cho buổi tối,0.1333
+VIVOSDEV16_299,vào được nhà anh đấy sửa cửa đi nguy hiểm đấy,vào được nhà anh đấy xử cửa đi nguy hiểm đấy,0.0909
+VIVOSDEV17_011,rồi mặc dù biết là ngớ ngẩn tôi cứ nói ra,rồi mặc dù biết là ngớ ngẩn tôi cứ nói ra,0.0
+VIVOSDEV17_024,riêng ông nguyễn văn ba bị gỗ đè dập sọ não chết ngay tại chỗ,riêng ông nguyễn văn ba bị rỗ đè gặp sỏ não chết ngay tại chỗ,0.2
+VIVOSDEV17_032,mỗi người nở một nụ cười với những ý nghĩa khác nhau,mỗi người nở một nụ cười với những ý nghĩa khác nhau,0.0
+VIVOSDEV17_043,do vậy sẽ ảnh hưởng tới việc thu sóng vô tuyến,do vậy sẽ ảnh hưởng tới việc thu sóng vô tuyến,0.0
+VIVOSDEV17_048,phim chiếu nguyên bản tiếng pháp có phụ đề tiếng việt,phim chiếu nguyên bản tiếng pháp có phủ đề tiếng việt,0.0909
+VIVOSDEV17_060,bóng màu xanh là vùng tâm bão có thể đi qua,bóng màu xanh là vùng tâm bão có thể đi qua,0.0
+VIVOSDEV17_062,sau một ngày lao động căng mệt bạn ưu tiên chọn,sau một ngày lao động căng mệt bạn ưu tiên chọn,0.0
+VIVOSDEV17_070,hà cũng chẳng nhớ mình có nói hay không để cãi lại ông ấy,hà cũng chẳng nhớ mình có nói hay không để cãi lại ông ấy,0.0
+VIVOSDEV17_071,bản thân tôi cũng tham gia một vai rất nhỏ nữa,bản thân tôi cũng tham gia một vai rất nhỏ nữa,0.0
+VIVOSDEV17_077,hôm sau mở máy thấy cái truyện đã tự hoàn chỉnh rồi,hôm sau mở máy thấy cái chuyện đã tự hoàn chỉnh rồi,0.0833
+VIVOSDEV17_090,bây giờ thì đáng được khen là thông minh chứ hả,bây giờ thì đáng được khen là thông minh chứ hả,0.0
+VIVOSDEV17_099,chị tìm nhà cho em ở trọ ngay cổng trường chị học,chị tìm nhà cho em ở trỏ ngay cổng trường chỉ học,0.1667
+VIVOSDEV17_100,đến đà lạt bạn phải chuẩn bị đôi chân để đi bộ,đến đà lạt bạn phải chuẩn bị đôi chân để đi bộ,0.0
+VIVOSDEV17_107,họ được bọn đầu nậu những tay trùm thuê với giá rẻ mạt,họ được bọn đầu nậu những tay trùm thuê với giá rẻ mạt,0.0
+VIVOSDEV17_109,một bà sang trọng đến gặp bác sĩ trẻ khám bệnh bác sĩ hỏi,một bà sang trọng đến gặp bác sĩ trẻ khám bệnh bác sĩ hỏi,0.0
+VIVOSDEV17_114,nhân lực ngành thiết kế đồ họa đắt giá và khan hiếm,nhưng lực ngành thiết kế đồ họa đắt giá và khan hiếm,0.0833
+VIVOSDEV17_120,sau đó bản thân học sinh phải làm đơn xin học bổng,sau đó bản thân học sinh phải làm đơn xin học bổng,0.0
+VIVOSDEV17_133,chỉ có thực phẩm mới giúp bạn làm được việc này,chỉ có thực phẩm mới giúp bạn làm được việc này,0.0
+VIVOSDEV17_147,với các dát màu cà phê sữa không cần điều trị,với các giác màu cà phê sữa không cần điều trị,0.0909
+VIVOSDEV17_169,họ bảo tôi giống người hàn thì tôi lại thấy họ giống người việt,họ bảo tôi giống như người hàn thì tôi lại thấy họ giống người việt,0.0714
+VIVOSDEV17_170,và đội tuyển pháp đang là đội chiếm ưu thế hơn so với thụy sĩ,và đội tuyển pháp đang là đội chiếm ưu thế hơn so với thuỷ sĩ,0.0667
+VIVOSDEV17_173,trình độ chuyên môn của cô khiến cô quá thừa tư cách,trình độ chuyên môn của cô khiến cô quá thừa tư cách,0.0
+VIVOSDEV17_181,những câu hỏi trên sẽ giúp bạn làm được điều này,những câu hỏi trên sẽ giúp bạn làm được điều này,0.0
+VIVOSDEV17_189,vẫn còn nhưng bạn không dám chắc họ có hạnh phúc hay không,vẫn còn nhưng bạn không dám chắc hỏi có hạnh phúc hay không,0.0769
+VIVOSDEV17_192,đó cũng là sự tiếp xúc gần gũi nhất của bọn em,đó cũng là sự tiếp xúc gần gũi nhất của bọn em,0.0
+VIVOSDEV17_204,em hãy tỉnh táo mà tìm những định hướng tốt hơn cho tương lai,em hãy tỉnh táo mà tìm những định hướng tốt hơn cho tương lai,0.0
+VIVOSDEV17_208,nhưng chẳng có điểm sản xuất nào dùng bạt phủ che chắn,nhưng chẳng có điểm sản xuất nào dùng bạc phụ che chắn,0.1667
+VIVOSDEV17_212,có mấy người đụng phải nó suýt ngã chúi xuống đường,có mấy người đụng phải nó suýt ngã chuối xuống đường,0.0909
+VIVOSDEV17_213,đoàn đi thuyền đến một khu làng dân tộc thiểu số,đoàn đi thuyền đến một khu làng dân tộc thiểu số,0.0
+VIVOSDEV17_217,thì hợp đồng thế chấp này cũng không có giá trị pháp lý,thì hợp đồng thế chấp này cũng không có giá trị pháp lý,0.0
+VIVOSDEV17_239,ba tôi hãnh diện nói chuyện với số học sinh cùng lên xe đò,ba tôi hãnh diện nói chuyện với số học sinh cùng lên xe đò,0.0
+VIVOSDEV17_241,một anh trai tuấn đang ngồi tù vì tội giết người,một anh trai tuấn đang ngồi tù vì tội giết người,0.0
+VIVOSDEV17_245,được bày trên những bệ thờ bên cạnh những bó sen huệ thơm nức,được bày trên những bể thờ bên cạnh những bó sen huế thơm phức,0.2143
+VIVOSDEV17_254,các bước sau đây sẽ giúp bạn tìm ra ứng cử viên thích hợp,các bước sau đây sẽ giúp bạn tìm ra ứng cử viên thích hợp,0.0
+VIVOSDEV17_268,vì chúng có thể làm răng của bạn dễ bị ố vàng,vì chúng có thể làm răng của bạn dễ bị ố vàng,0.0
+VIVOSDEV17_271,giải nhất huy chương vàng thuộc về nhà nhiếp ảnh của cộng hòa séc,giải nhất huy chương vàng thuộc về nhà nhiếp ảnh của cộng hoà séc,0.0714
+VIVOSDEV17_285,để xin thị thực công tác về cơ bản bạn phải có,để xin thỉ thật công tác về cơ bản bạn phải có,0.1667
+VIVOSDEV17_288,tôi nắm bàn tay xưa ba tôi từng thương yêu đau xót cầm giữ,tôi nắm bàn tay xưa ba tôi từng thương tôi đau xót cầm dự,0.1429
+VIVOSDEV17_297,trong dòng thác người chỉ nhìn được mắt kính và khẩu trang,trong dòng thác người chỉ nhìn được mắt kính và khẩu trang,0.0
+VIVOSDEV17_299,khai mạc triển lãm quy mô lớn về tranh sơn mài việt nam,khai mạc triển lãm quy mô lớn về tranh sơn mài việt nam,0.0
+VIVOSDEV18_006,không nên chỉ dựa vào bài viết của bạn để thuyết minh thêm,không nên chỉ dựa vào bài viết của bạn để thuyết minh thêm,0.0
+VIVOSDEV18_012,và giáo dục con người trở thành việc luyện trí nhớ,và giáo dục con người trở thành việc luyện trí nhớ,0.0
+VIVOSDEV18_017,tuy nhiên hợp đồng này chỉ có giá trị trong những ngày bình thường,tuy nhiên hợp đồng này chỉ có giá trị trong những ngày bình thường,0.0
+VIVOSDEV18_021,vấn đề đặt ra ở đây là làm thế nào để,vấn đề đặt ra ở đây là làm thế nào để,0.0
+VIVOSDEV18_051,nhưng nhiều du khách thấy thất vọng khi lên đến nơi,nhưng nhiều du khách vẫn thấy thất vọng khi lên đến nơi,0.0909
+VIVOSDEV18_056,trên mặt ai cũng có khăn tay khẩu trang che miệng,trên mặt ai cũng có khăn tay khẩu trang che miệng,0.0
+VIVOSDEV18_060,càng ngày mình càng nghĩ nhiều về công việc giảng dạy,càng ngày mình càng nghĩ nhiều về công việc giảng dạy,0.0
+VIVOSDEV18_064,tất nhiên hóa đơn tiền nước cũng kèm luôn khoản tiền,tất nhiên hóa đơn tiền nước cũng kèm theo luôn khoản tiền,0.0909
+VIVOSDEV18_065,chúc bạn đọc có thật nhiều thời gian thư giãn thoải mái,chúng bạn đọc có thật nhiều thời gian thư giãn thoải mái,0.0833
+VIVOSDEV18_082,hàng chân mày đen và xếch không lẫn vào đâu được,hàng chân mày đen và sắt không lẫn vào đâu được,0.0909
+VIVOSDEV18_102,cả ngày trời không nắng gió lạnh nên thưa vắng du khách,ngày trời không nắng gió lặng nên thưa vắng du khách,0.1667
+VIVOSDEV18_114,làm được hết khối công việc ấy là một nỗ lực rất lớn,được hết khối công việc ấy là một nỗ lực rất lớn,0.0769
+VIVOSDEV18_118,người ăn xin thưa bà ngày thường thì bà cho gì cũng được,người ăn xin thưa bà ngày thường thì bà cho gì cũng được,0.0
+VIVOSDEV18_120,bạn không bao giờ ra ngoài mà không dùng kem lót,bạn không bao giờ ra ngoài mà không dùng kem lót,0.0
+VIVOSDEV18_126,vài lần triển lãm tranh tượng không lời như thế hắn sẽ nhận ra,vài lần triển lãm tranh tượng không lời như thế hẳn sẽ nhận ra,0.0714
+VIVOSDEV18_155,người đàn ông trên giường thình lình rên lên một tiếng rồi mở mắt,người đàn ông trên giường thịnh lịnh rên lên một tiếng rồi mở mắt,0.1429
+VIVOSDEV18_171,tối qua người ta đến bắt tôi giữa đêm hôm khuya khoắt,tối qua người ta đến bắt tôi giữa đêm hôm khuya khoắt,0.0
+VIVOSDEV18_183,bảo thằng quyết nó bắt con gà sống nâu mà thịt,bảo thẳng thắn quýt nó bắt con gà sống lâu mà thịt,0.3636
+VIVOSDEV18_191,vị bác sĩ hiền lành ấy có những lý thuyết trồng cây thật thú vị,vị bác sĩ hiền lành ấy có những lý thuyết trồng cây thật thú vị,0.0
+VIVOSDEV18_192,những kiểu vết thương mà trẻ thường mang theo có thể là gì,unk kiểu vết thương mà trẻ thường mang theo có thể là gì,0.0769
+VIVOSDEV18_194,xin với mẹ cho đi cai tập trung sau một năm bạn trở về nhà,xin với mẹ cho đi cai tập trung sau một năm bạn trở về nhà,0.0
+VIVOSDEV18_195,đầu tiên là một tấm âm bản sau đó mới đến dương bản,tiên là một tấm âm bản sau đó mới đến dương bản,0.0769
+VIVOSDEV18_198,mấy ngày nay chúng tôi đã tịch thu được khá nhiều gà chết,ngày nay chúng tôi đã tịch thu được khá nhiều gà chết,0.0769
+VIVOSDEV18_199,hiển nhiên không ai muốn xuất hiện bên cạnh một người như vậy,tuy nhiên không ai muốn xuất hiện bên cạnh một người như vậy,0.0769
+VIVOSDEV18_211,hình ảnh quảng cáo điếu thuốc điện tử được công ty t,hình ảnh quảng cáo điều thuốc điện tử được công ty,0.1667
+VIVOSDEV18_214,kiểu hài dung tục vẫn cứ lềnh khênh ở một số tụ điểm,kiểu hải dung tục vẫn cứ lần khân ở một số tụ điểm,0.2308
+VIVOSDEV18_240,mời tham dự cuộc thi viết ngắn một giờ không điện,mời tham dự cuộc thi viết ngắn một giờ không điện,0.0
+VIVOSDEV18_250,lần đầu tiên một nhân viên người việt thách thức việc tác nghiệp của tôi,lần đầu tiên một nhân viên người việt thách thức việc tác nghiệp của tôi,0.0
+VIVOSDEV18_252,lúc đó chị tưởng làm như vậy cũng làm má vui,lúc đó chị tưởng làm như vậy cũng là má vui,0.0909
+VIVOSDEV18_257,ngồi nghe tiếng biển và thư thả đếm từng giọt đen rơi,ngồi nghe tiếng biển và thư thả đếm từng giọt đèn rơi,0.0833
+VIVOSDEV18_259,muốn công nhận ngay pha bóng ấy thì phải sửa luật,muốn công nhận ngay pha bóng ấy thì phải sửa luật,0.0
+VIVOSDEV18_263,quản lý nhà nước về giao thông vận tải đô thị,quản lý nhà nước về giao thông vận tải đô thị,0.0
+VIVOSDEV18_265,sau đó họ lân la sang chơi rồi đánh cắp đứa bé,sau đó họ lân la sang chơi rồi đánh cắp đứa bé,0.0
+VIVOSDEV18_272,anh nhơn bảo tôi về trước còn anh đi theo cô gái,anh nhơn bảo tôi về trước còn anh đi theo cô gái,0.0
+VIVOSDEV18_273,trước hết bạn cần tìm hiểu thông tin quy hoạch khu đất,trước hết bạn cần tìm hiểu thông tin quy hoạch khu đất,0.0
+VIVOSDEV18_279,những sản phẩm giúp nở ngực và tan mỡ cấp tốc ảnh yến trinh,những sản phẩm giúp nở ngực và tan mở cấp tốc ảnh hưởng đến yến trinh,0.2143
+VIVOSDEV18_280,phóng sự ảnh những màn biểu diễn ngoạn mục trên bầu trời,phóng sự ăn những màn biểu diễn ngoạn mục trên bầu trời,0.0833
+VIVOSDEV18_282,nhưng cuối cùng chẳng ai chịu nổi cái tính ham vui của tôi,cuối cùng chẳng ai chịu nổi cái tên ham vui của tôi,0.1538
+VIVOSDEV18_293,kiểm tra trung tâm này công an đã bắt giữ tới,kiểm tra trung tâm này công an đã bắt giữ tới,0.0
+VIVOSDEV18_297,hoa phượng vẫn nở đỏ trời trong tiếng ve xao xác khôn nguôi,hoa vượng vẫn nở trời trong tiếng ve sào sắc khôn nguôi,0.3077
+VIVOSDEV19_008,từ đó lại sa đà vào nhiều nghịch cảnh đáng tiếc,từ đó lại sa đà vào nhiều nghịch cảnh đáng tiếc,0.0
+VIVOSDEV19_011,mong anh hãy hiểu cho em em thương nhớ và yêu anh nhiều,mong anh hãy hiểu cho em em thương nhớ và yêu anh nhiều,0.0
+VIVOSDEV19_020,lên các cuộc hẹn phỏng vấn và thực hiện phỏng vấn,lên các cuộc hẹn phỏng vấn và thực hiện phỏng vấn,0.0
+VIVOSDEV19_022,xét ở khía cạnh này thì đúng là mất bò mới lo làm chuồng,xét ở khía cạnh này thì đúng là mất bò mới lo làm chuồng,0.0
+VIVOSDEV19_024,tuy nhiên tôi nghĩ cậu ta xứng đáng với chức vô địch,tuy nhiên tôi nghĩ cậu ta xứng đáng với chức vô địch,0.0
+VIVOSDEV19_027,những biến dạng này thường thấy rõ khi dương vật cương,những biến dạng này thường thấy rõ khi dương vật cương,0.0
+VIVOSDEV19_029,giỏi gì bác mình đẻ ra không nuôi thì ai nuôi,giỏi thì bác mình đẻ ra không nuôi thì ai nuôi,0.0909
+VIVOSDEV19_030,phù sa bồi đắp ruộng vườn cho xóm làng trù phú,phù sa bồi đắp ruộng vườn cho xóm làng trù phú,0.0
+VIVOSDEV19_045,ông nói chúng tôi hi vọng sẽ có những tin tức tốt lành,ông nói chúng tôi hi vọng sẽ có những tin tức tốt lành,0.0
+VIVOSDEV19_056,về nguyên tắc vào học là sinh viên phải đóng học phí,về nguyên tắc vào học là sinh viên phải đóng học phí,0.0
+VIVOSDEV19_061,để những khó khăn và mâu thuẫn dần dần sẽ bị đẩy lui,để những khó khăn và mâu thuẫn dần dần sẽ bị đẩy lui,0.0
+VIVOSDEV19_064,chóng mặt còn có thể do tình trạng rối loạn nhịp tim nặng gây ra,chóng mặt còn có thể do tình trạng rối loạn nhịp tim nặng gây ra,0.0
+VIVOSDEV19_071,trong ngắn hạn thị trường vận hành như một cỗ máy bầu cử,trong ngắn hạn thị trường vận hành như một cỗ máy bầu cử,0.0
+VIVOSDEV19_072,chương trình học bổng thanh niên châu á của nhật bản,chương trình học bổng thanh niên châu á của nhật bản,0.0
+VIVOSDEV19_083,nhưng rồi cái tình với bà con cứ nắm níu không dứt ra được,nhưng rồi cái tình với bà con cứ nắm níu không dứt ra được,0.0
+VIVOSDEV19_091,số đơn vị tham gia hội chợ việc làm tăng đáng kể qua các năm,số đơn vị tham gia hội chợ việc làm tăng đáng kể qua các năm,0.0
+VIVOSDEV19_094,trang viết của họ hơn hẳn thời tuổi trẻ của tôi,trang viết của họ hơn hẳn thời tuổi trẻ của tôi,0.0
+VIVOSDEV19_111,khuyết điểm lớn của chúng ta là chưa có dân chủ thật sự,khuyết điểm lớn của chúng ta là chưa có dân chủ thật sự,0.0
+VIVOSDEV19_133,em có suy nghĩ thêm về việc tham dự hội chợ khoa học không,em có suy nghĩ thêm về việc tham dự hội chợ khoa học không,0.0
+VIVOSDEV19_142,họ chỉ thích những môn gì mạnh bạo bạo lực và kiếm ra tiền thôi,họ chỉ thích những môn gì mạnh bạo bạo lực và kiếm ra tiền thôi,0.0
+VIVOSDEV19_158,những người trẻ ấy thật đáng phê phán đáng lên án,những người trẻ ấy thật đáng phê phán đáng lên án,0.0
+VIVOSDEV19_161,thông thường án kỷ luật nếu có thường ban hành vào cuối tuần,thông thường án kỷ luật nếu có thường ban hành vào cuối tuần,0.0
+VIVOSDEV19_163,điều lạ là tôi vẫn không từ bỏ ý định trở thành tu sĩ,điều lạ là tôi vẫn không từ bỏ ý định trở thành tu sĩ,0.0
+VIVOSDEV19_167,các qui định của pháp luật không thể được ban hành theo kiểu đánh lén,các quy định của pháp luật không thể được ban hành theo kiểu đánh lén,0.0667
+VIVOSDEV19_169,nhanh quá đã là lần thứ ba xa nhà rồi đấy,nhanh quá đã là lần thứ ba xa nhà rồi đấy,0.0
+VIVOSDEV19_179,đỗ đức thuần nguyên kế toán trưởng công ty tiếp thị đầu tư,đỗ đức thần nguyên kế toán trưởng công ty tiếp thị đầu tư,0.0769
+VIVOSDEV19_196,người anh sau đó được phép thầu xây kênh này nhưng không tiến hành,người anh sau đó được phép thầu xây kênh này nhưng không tiến hành,0.0
+VIVOSDEV19_218,nói cách khác cái được của châu á là cái mất của châu phi,nói cách khác cái được của châu á là cái mất của châu phi,0.0
+VIVOSDEV19_222,mắt tự nhiên hoa lên trí chụp một cái ly quật mạnh xuống sàn,mắt tự nhiên hoa lên trí chụp một cái ly quật mạnh xuống sàn,0.0
+VIVOSDEV19_227,từ đấy ông càng thông cảm sâu sắc tâm trạng của nguyễn thiếp,từ đấy ông càng thông cảm sâu sắc tâm trạng của nguyễn thiếp,0.0
+VIVOSDEV19_244,em hãy tìm cách tiếp cận để bày tỏ với mẹ,em hãy tìm cách tiếp cận để bày tỏ với mẹ,0.0
+VIVOSDEV19_245,lúc đó nạn kẹt xe chắc sẽ kinh khủng gấp nhiều lần hôm nay,lúc đó nạn kẹt xe chắc sẽ kinh khủng gấp nhiều lần hôm nay,0.0
+VIVOSDEV19_246,vợ lỡ có tật thế anh nên thay đổi cách tiếp cận,vợ lỡ có tật thế anh nên thay đổi cách tiếp cận,0.0
+VIVOSDEV19_249,đây được xem là vai diễn thành công nhất của vương từ trước đến nay,đây được xem là vai diễn thành công nhất của vương từ trước đến nay,0.0
+VIVOSDEV19_257,nhưng nếu chỉ nói cái giỏi không thôi thì thật chưa đủ về chú tư,nhưng nếu chỉ nói cái giỏi không thôi thì thật sự chưa đủ về chú tư,0.0667
+VIVOSDEV19_259,tích cực hơn với vấn đề liên quan đến kiều bào,tích cực hơn với vấn đề liên quan đến kiều bào,0.0
+VIVOSDEV19_262,để rồi chúng ta khao khát mãi trong vòng luân hồi nhân gian,để rồi chúng ta khao khát mãi trong vòng luân hồi nhân gian,0.0
+VIVOSDEV19_266,vấn đề nảy sinh từ cái câu hỏi dinh cu ấy,vấn đề nảy sinh từ cái câu hỏi dinh cu ấy,0.0
+VIVOSDEV19_274,chị nên đi khám bác sĩ và chọn phương pháp ngừa thai hiệu quả,chị nên đi khám bác sĩ và chọn phương pháp ngừa thai hiệu quả,0.0
+VIVOSDEV19_279,nợ một cuộc chiến chống tham nhũng vẫn chưa vào đâu,nợ một cuộc chiến chống tham nhũng vẫn chưa vào đâu,0.0

@@ -100,12 +100,17 @@ Gemma 3n correctly:
 
 The first version used the original multilingual Whisper, which reached a WER of 0.65 on clean self-recorded speech (table further below). To fix the root cause rather than post-process around it, the app now uses **PhoWhisper**, VinAI's Whisper models fine-tuned on 844 hours of Vietnamese speech, and every candidate is benchmarked on the **VIVOS test set** (760 utterances, 19 speakers) with identical preprocessing and text normalisation.
 
-| Model | WER | CER | sec / utterance | Real-time factor |
-|---|---|---|---|---|
-| whisper:base (old baseline) | [ ] | [ ] | [ ] | [ ] |
-| PhoWhisper-tiny | [ ] | [ ] | [ ] | [ ] |
-| PhoWhisper-base | [ ] | [ ] | [ ] | [ ] |
-| PhoWhisper-small | [ ] | [ ] | [ ] | [ ] |
+| Model | Params | WER | CER | Exact sentences | sec / utterance (T4 GPU) |
+|---|---|---|---|---|---|
+| whisper:base (old baseline) | 74M | 0.382 | 0.190 | 31 / 760 | 0.25 |
+| PhoWhisper-tiny | 39M | 0.096 | 0.043 | 380 / 760 | 0.24 |
+| PhoWhisper-base | 74M | 0.080 | 0.036 | 431 / 760 | 0.36 |
+| **PhoWhisper-small** | 244M | **0.062** | **0.027** | **482 / 760** | 0.84 |
+
+- **Switching to PhoWhisper cut WER from 38.2 % to 6.2 % (−84 % relative).** Even PhoWhisper-tiny, half the size of the old model, reaches 9.6 %.
+- **The pipeline reproduces the published numbers** (VinAI reports 10.41 / 8.46 / 6.33 % for tiny / base / small on VIVOS), which validates the preprocessing and normalisation.
+- **Remaining errors are mostly tones, rare words and proper nouns** (e.g. *đúng → túng*, *lạnh → lặng*, place names), plus spelling variants such as *quí / quý* that are both valid.
+- **Part of the old model's WER is formatting:** it writes numbers as digits in 82 sentences (*7* instead of *bảy*), which this benchmark counts as errors.
 
 Reproduce: `python benchmark_vivos.py` (GPU recommended; downloads VIVOS from Zenodo and keeps only the test split). Per-utterance predictions are saved in `results/` for error analysis.
 
